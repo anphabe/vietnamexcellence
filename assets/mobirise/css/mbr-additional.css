@@ -1506,16 +1506,13 @@ a {
   padding-bottom: 30px;
   background-color: #232323;
 }
-.cid-sjpIEN4ade {
-  background-image: url("../../../assets/images/bg4-4.jpg");
+.cid-slu8Q03vsG {
+  background-image: url("../../../assets/images/bg-about-excellence-4.jpg");
   min-height: 50vh!important;
 }
-.cid-sjpIEN4ade .mbr-fullscreen {
-  display: -o-flex;
-  align-items: center;
-  min-height: 50vh;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+.cid-slu8Q03vsG .mbr-text,
+.cid-slu8Q03vsG .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-si6dxYUOGP {
   padding-top: 5rem;
