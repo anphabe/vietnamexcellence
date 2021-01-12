@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "ve-vietnamexcellence.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -82,7 +82,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Trang chủ",
+        "title": "Vietnam Excellence",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
