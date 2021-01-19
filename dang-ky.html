@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.2.5, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.2.5, mobirise.com">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
   <meta name="description" content="">
@@ -24,11 +24,51 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KG2VC3R');</script>
+<!-- End Google Tag Manager -->
+<script>
+function keep_url_query(){
+    var url = window.location.href;
+    var index = url.indexOf("?");
+
+    if(index < 0) {
+        return;
+    }
+    var query = url.substring(index);
+    
+    (function(query) {
+    var atags = document.getElementsByTagName("a"); 
+    var i;
+    for (i = 0; i < atags.length; i++) {
+        atags[i].href = atags[i].href+query;  
+    //    atags[i].classList.add("d-inline-block");
+    } 
+        
+    })(query);
+}
+
+if (
+    document.readyState === "complete" ||
+    (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  keep_url_query();
+} else {
+  document.addEventListener("DOMContentLoaded", keep_url_query);
+}
+
+</script>
   
 </head>
 <body>
-  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG2VC3R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <section class="menu menu2 cid-sjuC6pfN0j" once="menu" id="menu2-3m">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -87,6 +127,13 @@
         <div class="row justify-content-center mt-4">
             <div class="col-lg-12 mx-auto mbr-form">
                 <form action="https://www.anphabe.com/aapi-lead/register" method="POST" data-rcpha_sitekey="" data-rcpha_secretkey="" class="mbr-form form-with-styler mx-auto">
+                    <input type="hidden" id="product_name-form7-44" name="product_name" data-form-field="product_name" value="vietnamexcellence">
+                    <input type="hidden" id="utm_campaign-form7-44" name="utm_campaign" data-form-field="utm_campaign" value="">
+                    <input type="hidden" id="utm_source-form7-44" name="utm_source" data-form-field="utm_source" value="">
+                    <input type="hidden" id="utm_medium-form7-44" name="utm_medium" data-form-field="utm_medium" value="">
+                    <input type="hidden" id="utm_term-form7-44" name="utm_term" data-form-field="utm_term" value="">
+                    <input type="hidden" id="utm_content-form7-44" name="utm_content" data-form-field="utm_content" value="">
+                                        
                     <p class="mbr-text mbr-fonts-style align-center mb-4 display-7">
                        Chúng tôi sẽ liên hệ với bạn nhanh nhất.
                     </p>
@@ -282,7 +329,7 @@
   <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script src="assets/al/al.min.js"></script>
   
 </body>
 </html>
