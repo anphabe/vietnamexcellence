@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "thankyou.html",
+    "currentPage": "ban-co-van.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -4758,7 +4758,7 @@
     "thankyou.html": {
       "settings": {
         "title": "Thank You",
-        "meta_descr": "Vietnam Excellence 2021 - Chứng nhận thành tích vượt trội, ghi nhận từ chính nhân viên ",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
