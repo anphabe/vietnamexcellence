@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "index.html",
+    "currentPage": "dang-ky.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -83,7 +83,7 @@
       "settings": {
         "main": true,
         "title": "Vietnam Excellence",
-        "meta_descr": "",
+        "meta_descr": "Vietnam Excellence 2021 - Chứng nhận thành tích vượt trội, ghi nhận từ chính nhân viên ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1210,7 +1210,8 @@
     "ve-vietnamexcellence.html": {
       "settings": {
         "title": "Về Việt Nam Excellence",
-        "order": 1
+        "order": 1,
+        "meta_descr": "Vietnam Excellence 2021 - Chứng nhận thành tích vượt trội, ghi nhận từ chính nhân viên "
       },
       "components": [
         {
@@ -2921,7 +2922,8 @@
     "ban-co-van.html": {
       "settings": {
         "title": "Ban cố vấn",
-        "order": 2
+        "order": 2,
+        "meta_descr": "Vietnam Excellence 2021 - Chứng nhận thành tích vượt trội, ghi nhận từ chính nhân viên "
       },
       "components": [
         {
@@ -3988,7 +3990,7 @@
     "dang-ky.html": {
       "settings": {
         "title": "Đăng ký tham dự",
-        "meta_descr": "",
+        "meta_descr": "Vietnam Excellence 2021 - Chứng nhận thành tích vượt trội, ghi nhận từ chính nhân viên ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
