@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - EN",
-    "currentPage": "nominate.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -74,7 +74,7 @@
     "witsec-white-label": true,
     "witsec-mailform": false,
     "uniqCompNum": 170,
-    "versionPublish": "5.2.6",
+    "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "mbrsiteDomain": "846cwglomq",

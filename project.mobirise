@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - VI",
-    "currentPage": "ve-vietnamexcellence.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -73,7 +73,7 @@
     "gdpr": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "uniqCompNum": 224,
+    "uniqCompNum": 226,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -550,7 +550,7 @@
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)",
               ".carousel": {
-                "height": "950px",
+                "height": "800px",
                 "img": {
                   "width": "100%",
                   "height": "100%",
@@ -582,8 +582,14 @@
               "z-index": "1"
             },
             ".carousel-caption": {
-              "text-align": "left",
-              "top": "350px"
+              "bottom": "auto",
+              "top": "50%",
+              "right": "0",
+              "left": "0",
+              "display": "flex",
+              "align-items": "center",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)"
             },
             ".mobi-mbri-arrow-next": {
               "margin-left": "5px"
@@ -599,12 +605,35 @@
             ".item-wrapper": {
               "width": "100%"
             },
+            ".intro-style ul li": {
+              "font-size": "2.5rem",
+              "line-height": "1.5",
+              "list-style": "none"
+            },
+            ".intro-style ul li span": {
+              "font-size": "20px",
+              "font-weight": "bold",
+              "color": "#ffb635",
+              "margin-left": "-35px",
+              "margin-right": "20px"
+            },
+            ".mbri-laptop": {
+              "font-size": "94px",
+              "position": "relative"
+            },
+            ".mbri-success": {
+              "color": "#ffb635",
+              "margin-right": "20px"
+            },
             "@media (max-width: 767px)": {
               ".container .carousel-control": {
                 "margin-bottom": "0"
               },
               ".content-slider-wrap": {
                 "width": "100% !important"
+              },
+              ".intro-style ul li": {
+                "font-size": "2rem"
               }
             },
             ".container .carousel-indicators": {
@@ -666,26 +695,28 @@
                 "display": "none !important"
               }
             },
-            "a.btn-primary, a.btn-primary:hover": {
-              "color": "#000000!important",
-              "font-weight": "bold"
+            ".full-screen .slider-fullscreen-image": {
+              "min-height": "100vh",
+              "background-repeat": "no-repeat",
+              "background-position": "56% 50%",
+              "background-size": "cover"
             },
-            ".intro-style ul": {
-              "margin-left": "0",
-              "padding-left": "0"
+            ".carousel-item": {
+              "background-position": "50% 50%",
+              "background-repeat": "no-repeat",
+              "background-size": "cover",
+              "-o-transition": "-o-transform 0.6s ease-in-out",
+              "-webkit-transition": "-webkit-transform 0.6s ease-in-out",
+              "transition": "transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out",
+              "-webkit-backface-visibility": "hidden",
+              "backface-visibility": "hidden",
+              "-webkit-perspective": "1000px",
+              "perspective": "1000px"
             },
-            ".intro-style ul li": {
-              "font-size": "2.5em",
-              "line-height": "1.5",
-              "list-style": "none"
-            },
-            ".mbri-laptop": {
-              "font-size": "94px",
-              "position": "relative"
-            },
-            ".mbri-success": {
-              "color": "#ffb635",
-              "margin-right": "20px"
+            ".container-slide.container": {
+              "width": "100%",
+              "min-height": "100vh",
+              "padding": "0"
             },
             ".border-gradient": {
               "border": "4px solid",
@@ -725,13 +756,23 @@
             },
             ".mbr-section-btn a.btn:not(.btn-form)": {
               "padding": "10px 34px"
+            },
+            "a.btn-primary, a.btn-primary:hover": {
+              "color": "#000000!important",
+              "font-weight": "bold"
+            },
+            ".full-screen .carousel-item .container.container-slide img": {
+              "display": "none"
+            },
+            ".container img": {
+              "width": "100%"
             }
           },
           "_name": "slider1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"slider1\" group=\"Sliders &amp; Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked=\"\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\" selected=\"\">\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n        <ol class=\"carousel-indicators\">\n            <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\"></li>\n            <li data-target=\"#{{sliderId}}\" data-slide-to=\"1\"></li>\n            \n        </ol>\n        \n              <div class=\"carousel-inner\">\n                  <div class=\"carousel-item slider-image item active\">\n                      <div class=\"item-wrapper\">\n                          <a href=\"sukien.html\"><img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/cover-homepage.jpg\" data-slide-to=\"0\"></a>\n                          <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                          </div>\n                        \n                      </div>\n                  </div><div class=\"carousel-item slider-image item\">\n                      <div class=\"item-wrapper\">\n                          <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/bg-cover5-3.jpg\" alt=\"\" data-slide-to=\"1\">\n                          <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                          </div>\n                          <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                              \n                              <div class=\"col-12 col-lg-8\">\n                              \n                                <div class=\"intro-style\">\n                                    <ul class=\"mbr-text mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                                        <li><span class=\"mbri-success\"></span>Vinh danh điển hình xuất sắc</li>\n                                        <li><span class=\"mbri-success\"></span>Lan truyền cảm hứng</li>\n                                        <li><span class=\"mbri-success\"></span>Nhân rộng thành công</li>                   \n                                    </ul>\n                                </div>\n                      <div mbr-buttons=\"\" mbr-theme-style=\"display-4 buttons-style\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn border-gradient border-gradient-green btn-primary\" href=\"dang-ky.html\" data-app-placeholder=\"Type Text\"><strong>ỨNG CỬ NGAY</strong></a></div>\n                              </div>\n\n                          </div>\n                      </div>\n                  </div>\n                  \n                  \n              \n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only\">Next</span>\n        </a>\n    </div>\n</section>",
-          "_cid": "sBfeXCV5aT",
-          "_anchor": "slider1-66",
+          "_customHTML": "<section class=\"slider1\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fafafa\" selected>\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n      <div class=\"full-screen\">\n          <ol class=\"carousel-indicators\">\n              <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\"></li>\n              <li data-target=\"#{{sliderId}}\" data-slide-to=\"1\"></li>\n              \n          </ol>\n          <div class=\"carousel-inner\">            \n              <div class=\"carousel-inner\" role=\"listbox\">\n                <div class=\"carousel-item slider-fullscreen-image active\" style=\"background-image: url(@PROJECT_PATH@/assets/images/cover-homepage.jpg);\">\n\n                  <div class=\"container container-slide\">\n                    <div class=\"image_wrapper\">                    \n                      <a href=\"sukien.html\"><img src=\"@PROJECT_PATH@/assets/images/cover-homepage.jpg\"></a>\n                      <div class=\"carousel-caption justify-content-center\">\n                        \n                      </div>\n                    </div>\n                  </div>\n                </div>       \n                \n                <div class=\"carousel-item slider-fullscreen-image\" style=\"background-image: url(@PROJECT_PATH@/assets/images/bg-cover5-3.jpg);\">\n                  <div class=\"container container-slide\">\n                    <div class=\"image_wrapper\">                    \n                      <img src=\"@PROJECT_PATH@/assets/images/bg-cover5-3.jpg\">\n                      <div class=\"carousel-caption align-left\">\n                        <div class=\"col-10 align-left intro-style\">\n                          <ul class=\"mbr-text mbr-white mbr-fonts-style display-7\">\n                              <li><span class=\"mbri-success\"></span>Vinh danh điển hình xuất sắc</li>\n                              <li><span class=\"mbri-success\"></span>Lan truyền cảm hứng</li>\n                              <li><span class=\"mbri-success\"></span>Nhân rộng thành công</li>                   \n                          </ul>\n                          <div class=\"mt-3 mbr-section-btn\" buttons=\"0\"><a class=\"btn  border-gradient border-gradient-green btn-primary display-4 buttons-style\" href=\"https://mobirise.com\">ỨNG CỬ NGAY</a></div>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>            \n              \n              \n              \n              \n              \n          </div>\n          <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\">\n              <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n          </a>\n          <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\">\n              <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n          </a>\n      </div>\n\n    </div>\n</div></section>",
+          "_cid": "sBCrrOGXBH",
+          "_anchor": "slider1-69",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
