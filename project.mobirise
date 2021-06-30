@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - VI",
-    "currentPage": "index.html",
+    "currentPage": "thankyou.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -91,10 +91,9 @@
         "main": true,
         "title": "Vietnam Excellence",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/share.jpg"
+        "html_before": ""
       },
       "components": [
         {
@@ -1371,7 +1370,8 @@
     "ve-vietnamexcellence.html": {
       "settings": {
         "title": "Về Việt Nam Excellence",
-        "order": 2
+        "order": 2,
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
       },
       "components": [
         {
@@ -3102,7 +3102,8 @@
     "ban-co-van.html": {
       "settings": {
         "title": "Ban cố vấn",
-        "order": 3
+        "order": 3,
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
       },
       "components": [
         {
@@ -4175,7 +4176,7 @@
       "settings": {
         "title": "Đăng ký tham dự",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 4
@@ -4949,7 +4950,7 @@
       "settings": {
         "title": "Thankyou",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 5
@@ -5479,7 +5480,8 @@
     "sukien.html": {
       "settings": {
         "title": "Hội nghị Việt Nam xuất sắc",
-        "order": 1
+        "order": 1,
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
       },
       "components": [
         {

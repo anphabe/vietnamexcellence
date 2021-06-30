@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - EN",
-    "currentPage": "summit.html",
+    "currentPage": "thankyou.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -89,10 +89,9 @@
         "main": true,
         "title": "Homepage",
         "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/web.jpg"
+        "html_before": ""
       },
       "components": [
         {
@@ -1371,7 +1370,8 @@
       "settings": {
         "title": "ABOUT VIETNAM EXCELLENCE",
         "order": 2,
-        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice"
+        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n"
       },
       "components": [
         {
@@ -3085,7 +3085,7 @@
       "settings": {
         "title": "NOMINATE NOW",
         "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 4
@@ -3852,7 +3852,8 @@
       "settings": {
         "title": "ADVISORY BOARD",
         "order": 3,
-        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice"
+        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n"
       },
       "components": [
         {
@@ -4922,7 +4923,7 @@
       "settings": {
         "title": "Thankyou",
         "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 5
@@ -5447,7 +5448,8 @@
       "settings": {
         "title": "VIETNAM EXCELLENCE SUMMIT",
         "order": 1,
-        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice"
+        "meta_descr": "Vietnam Excellence 2021 - Certify the best, recognized by employee voice",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/en/assets/images/share2-en.jpg\">\n  <meta property=\"og:image\" content=\" https://vietnamexcellence.vn/en/assets/images/share2-en.jpg \">\n"
       },
       "components": [
         {
