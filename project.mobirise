@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "thankyou.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -104,7 +104,7 @@
         "main": true,
         "title": "Hội nghị Việt Nam Xuất Sắc 2021 | Anphabe",
         "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1613,7 +1613,7 @@
       "settings": {
         "title": "Về Việt Nam Excellence",
         "order": 3,
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n"
       },
       "components": [
         {
@@ -3566,7 +3566,7 @@
       "settings": {
         "title": "Ban cố vấn",
         "order": 4,
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n"
       },
       "components": [
         {
@@ -4872,7 +4872,7 @@
       "settings": {
         "title": "Đăng ký tham dự",
         "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 5
@@ -5851,7 +5851,7 @@
       "settings": {
         "title": "Thankyou",
         "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
         "footer_custom": "",
         "html_before": "",
         "order": 6
@@ -6769,7 +6769,7 @@
       "settings": {
         "title": "Hội nghị Việt Nam xuất sắc",
         "order": 1,
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
         "meta_descr": ""
       },
       "components": [
@@ -8068,7 +8068,7 @@
       "settings": {
         "title": "Điển hình xuất sắc",
         "order": 2,
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
         "meta_descr": "",
         "html_before": "function switchStyle() {\n  if (document.getElementById('styleSwitch').checked) {\n    document.getElementById('gallery').classList.add(\"custom\");\n    document.getElementById('exampleModal').classList.add(\"custom\");\n  } else {\n    document.getElementById('gallery').classList.remove(\"custom\");\n    document.getElementById('exampleModal').classList.remove(\"custom\");\n  }\n}"
       },
