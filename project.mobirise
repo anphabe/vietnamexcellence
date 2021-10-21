@@ -101,7 +101,9 @@
     "global_header_custom": "  <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WBX9JQ4');</script>\n<!-- End Google Tag Manager -->\n<script>\nfunction keep_url_query(){\n    var url = window.location.href;\n    var index = url.indexOf(\"?\");\n\n    if(index < 0) {\n        return;\n    }\n    var query = url.substring(index);\n    \n    (function(query) {\n    var atags = document.getElementsByTagName(\"a\"); \n    var i;\n    for (i = 0; i < atags.length; i++) {\n        atags[i].href = atags[i].href+query;  \n    //    atags[i].classList.add(\"d-inline-block\");\n    } \n        \n    })(query);\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n\n</script>",
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBX9JQ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
-    "witsec-language": "vi"
+    "witsec-language": "vi",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -7932,6 +7934,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -8155,11 +8160,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -8231,7 +8231,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -8283,6 +8288,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -8506,11 +8514,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -8582,7 +8585,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -8634,6 +8642,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -8857,11 +8868,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -8933,7 +8939,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -9011,6 +9022,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -9234,11 +9248,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -9310,7 +9319,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -9365,6 +9379,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -9588,11 +9605,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -9664,7 +9676,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -9719,6 +9736,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -9942,11 +9962,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -10018,7 +10033,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -10073,6 +10093,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -10296,11 +10319,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -10372,7 +10390,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -10427,6 +10450,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -10650,11 +10676,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -10726,7 +10747,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -10781,6 +10807,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -11004,11 +11033,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -11080,7 +11104,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
@@ -11135,6 +11164,9 @@
             },
             "hr": {
               "background-color": "#f49f09"
+            },
+            ".mbr-text": {
+              "color": "#353535"
             }
           },
           "_name": "content7",
@@ -11358,11 +11390,6 @@
                 "top": "0",
                 "right": "0"
               },
-              ".content-bio": {
-                "padding-top": "2rem",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
               ".mbr-slider .carousel-control": {
                 "top": "auto",
                 "bottom": "20px"
@@ -11434,7 +11461,12 @@
             ".content-bio": {
               "text-align": "left",
               "padding-right": "2rem",
-              "padding-left": "2rem"
+              "padding-left": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              }
             },
             ".winner-intro": {
               "text-align": "left",
