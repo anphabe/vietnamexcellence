@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "index.html",
+    "currentPage": "dien-hinh-xuat-sac.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -13,7 +13,7 @@
         "warningColor": "#FFE161",
         "dangerColor": "#232323",
         "mainFont": "Jost",
-        "display1Font": "Nunito Sans",
+        "display1Font": "Questrial",
         "display1Size": "4.8",
         "display2Font": "Questrial",
         "display2Size": 3,
@@ -88,11 +88,11 @@
     "gdpr": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "uniqCompNum": 400,
+    "uniqCompNum": 419,
     "versionPublish": "5.2.6",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "upltz0wsxk",
+    "mbrsiteDomain": "ia3buta2sq",
     "global_header_custom": "  <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WBX9JQ4');</script>\n<!-- End Google Tag Manager -->\n<script>\nfunction keep_url_query(){\n    var url = window.location.href;\n    var index = url.indexOf(\"?\");\n\n    if(index < 0) {\n        return;\n    }\n    var query = url.substring(index);\n    \n    (function(query) {\n    var atags = document.getElementsByTagName(\"a\"); \n    var i;\n    for (i = 0; i < atags.length; i++) {\n        atags[i].href = atags[i].href+query;  \n    //    atags[i].classList.add(\"d-inline-block\");\n    } \n        \n    })(query);\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n\n</script>",
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBX9JQ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
@@ -7712,7 +7712,7 @@
         }
       ]
     },
-    "page7.html": {
+    "dien-hinh-xuat-sac.html": {
       "settings": {
         "title": "Điển hình xuất sắc",
         "order": 2,
@@ -7760,9 +7760,144 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left",
+              "color": "#bbbbbb"
+            },
+            ".btn": {
+              "padding-right": "3rem",
+              "padding-left": "3rem"
+            },
+            "ul li a": {
+              "color": "#232323",
+              "text-decoration": "none"
+            }
+          },
+          "_name": "features4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"features4\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Services</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/leadership-top.jpg\" alt=\"Leadership Excellence\" title>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <ul>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"dien-hinh-xuat-sac.html#lanhdaotruyencamhung\" class=\"\" target=\"_blank\" data-app-placeholder=\"Type Text\">Lãnh đạo truyền cảm hứng</a></li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"dien-hinh-xuat-sac.html#phattrienconnguoi\" class=\"\" target=\"_blank\" data-app-placeholder=\"Type Text\">Lãnh đạo phát triển con người</a></li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"dien-hinh-xuat-sac.html#lanhdaodotpha\" class=\"\" target=\"_blank\" data-app-placeholder=\"Type Text\">Lãnh đạo đột phá</a></li>\n                        </ul>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"dien-hinh-xuat-sac.html#leadership_winner\" class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Xem kết quả</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/hr-top.jpg\" alt=\"HR Excellence\" title>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <ul>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đa dạng &amp; Hòa hợp</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Văn hóa doanh nghiệp</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Thu hút nhân tài</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đào tạo &amp; Phát triển nhân viên</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Gắn kết nhân viên</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Ứng dụng công nghệ &amp; Đột phá nhân sự</li>\n                            <li class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">An sinh tại môi trường làm việc</li>                          \n                            \n                        </ul>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"dien-hinh-xuat-sac.html#hr_winner\" class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Xem kết quả</a></div>\n                </div>\n            </div>\n            \n\n        </div>\n    </div>\n</section>",
+          "_cid": "sMtROy5DRc",
+          "_anchor": "features4-bd",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
             "img": {
-              "height": "250px"
+              "height": "250px",
+              "@media (max-width: 768px)": {
+                "height": "100%"
+              }
             }
           },
           "_name": "slider2",
@@ -7770,7 +7905,7 @@
           "_customHTML": "<section class=\"slider2\" group=\"Sliders &amp; Galleries\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline=\"\" title=\"Height\" name=\"carouselHeight\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlaySlide\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlaySlideColor\" value=\"#232323\" condition=\"overlaySlide\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlaySlideOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlaySlide\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\" selected=\"\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-12\">\n                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/leadership-banner.jpg\" alt=\"\">\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "slider2-ay",
+          "_anchor": "leadership_winner",
           "_isUserblock": true,
           "_cid": "sMsRVaG3we",
           "_protectedParams": [],
@@ -7785,17 +7920,23 @@
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
             "blockquote": {
-              "border-color": "@lineColor",
+              "border": "none",
               "border-radius": "4px",
-              "background-color": "@cardColor"
+              "background-color": "@cardColor",
+              "padding": "0"
+            },
+            "hr": {
+              "background-color": "#f49f09"
             }
           },
           "_name": "content7",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Lãnh đạo truyền cảm hứng</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Giải thưởng này vinh danh Lãnh đạo/ Đội ngũ lãnh đạo thể hiện khả năng nổi trội trong việc truyền cảm hứng và thống nhất năng lượng toàn tổ chức hướng về mục tiêu chung. Sự dẫn dắt tài tình và cam kết theo đuổi tầm nhìn đã đặt ra của người lãnh đạo đã mang lại những bước nhảy vọt về hiệu quả kinh doanh và tính bền vững cho doanh nghiệp.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content7-b1",
+          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <hr class=\"mb-4\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>1. Lãnh đạo truyền cảm hứng</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Giải thưởng này vinh danh Lãnh đạo/ Đội ngũ lãnh đạo thể hiện khả năng nổi trội trong việc truyền cảm hứng và thống nhất năng lượng toàn tổ chức hướng về mục tiêu chung. Sự dẫn dắt tài tình và cam kết theo đuổi tầm nhìn đã đặt ra của người lãnh đạo đã mang lại những bước nhảy vọt về hiệu quả kinh doanh và tính bền vững cho doanh nghiệp.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "lanhdaotruyencamhung",
           "_isUserblock": true,
           "_cid": "sMsS05qhsj",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7977,7 +8118,10 @@
             ".carousel-inner": {
               "display": "flex",
               "padding": "0 7rem",
-              "background-color": "#ffffff"
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
             },
             ".carousel-inner > .active": {
               "display": "block"
@@ -8097,16 +8241,1460 @@
               "text-transform": "capitalize",
               "font-family": "'Nunito', sans-serif"
             },
-            ".ul": {}
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            }
           },
           "_name": "gallery5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery mt-4\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/vuulequyen.jpg\" alt data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Bà <b>VƯU LỆ QUYÊN</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</i></h6>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/ms.-ha-adp.jpg\" alt data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Ông <b>NITIN KAPOOR</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Chủ tịch kiêm Tổng giám đốc AstraZeneca Việt Nam</i></h6>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-202.jpg\" alt data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Ông <b>WARRICK CLEINE</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia</i></h6>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/vu-tien-loc-1.jpg\" alt data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-5\" mbr-if=\"showItemSubtitle\">Bà <b>NGUYỄN ĐỨC THẠCH DIỄM</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4 mt-2\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Thành viên HĐQT kiêm CEO - Ngân hàng TMCP Sài Gòn Thương Tín - Sacombank</i></h6>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>VƯU LỆ QUYÊN</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Trong thời đại xã hội có nhiều biến động, doanh nghiệp buộc phải thay đổi để thích ứng. Là một trong những doanh nghiệp lâu đời của Việt Nam, gần 40 năm tuổi, Biti’s buộc phải chuyển mình để thay đổi. Biti’s đã chọn lựa những chiến lược nào? Là một trong những CEO trẻ nhất với quy mô hơn 10.000 nhân sự, bà Vưu Lệ Quyên đã lựa chọn cách thích ứng bằng việc thay đổi toàn diện doanh nghiệp: từ văn hoá, quy trình vận hành, sản phẩm và tầm nhìn tiếp thị. Bà lựa chọn là một nhà lãnh đạo trắc ẩn, người đặt sự hạnh phúc và hiệu quả của cả cộng đồng lên hàng đầu. Dưới sự dẫn dắt của bà và sự đồng lòng của đồng sự, Biti’s đã có sự chuyển mình một cách ngoạn mục đem lại nhiều thành quả, giá trị tích cực trong thời gian qua.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>VƯU LỆ QUYÊN</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Trong thời đại xã hội có nhiều biến động, doanh nghiệp buộc phải thay đổi để thích ứng. Là một trong những doanh nghiệp lâu đời của Việt Nam, gần 40 năm tuổi, Biti’s buộc phải chuyển mình để thay đổi. Biti’s đã chọn lựa những chiến lược nào? Là một trong những CEO trẻ nhất với quy mô hơn 10.000 nhân sự, bà Vưu Lệ Quyên đã lựa chọn cách thích ứng bằng việc thay đổi toàn diện doanh nghiệp: từ văn hoá, quy trình vận hành, sản phẩm và tầm nhìn tiếp thị. Bà lựa chọn là một nhà lãnh đạo trắc ẩn, người đặt sự hạnh phúc và hiệu quả của cả cộng đồng lên hàng đầu. Dưới sự dẫn dắt của bà và sự đồng lòng của đồng sự, Biti’s đã có sự chuyển mình một cách ngoạn mục đem lại nhiều thành quả, giá trị tích cực trong thời gian qua.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>VƯU LỆ QUYÊN</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Dưới sự dẫn dắt của Nitin, AstraZeneca Việt Nam đã xuất sắc chuyển biến hoạt động kinh doanh với kết quả vượt trội, vượt qua nhiều thách thức của thị trường với nền tảng văn hóa doanh nghiệp được củng cố vững mạnh. Công ty cũng đã và đang thắt chặt mối quan hệ hợp tác với Chính phủ Việt Nam cũng như các đối tác y tế trong nhiều chương trình ý nghĩa nhằm phòng chống các bệnh không lây nhiễm và thúc đẩy mục tiêu phát triển bền vững, cũng như đóng góp trong cuộc chiến chống lại COVID-19 của Việt Nam qua việc cung ứng vắc xin. </p>\n\n                                                 <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với tôn chỉ đặt bệnh nhân làm trọng tâm những nỗ lực của công ty đã được ghi nhận với hai Bằng khen của Bộ trưởng Bộ Y Tế vào năm 2019 và 2020 vì những đóng góp tích cực trong công tác phòng, chống ung thư và đại dịch COVID-19 tại Việt Nam, Kỷ niệm chương Vì thế hệ trẻ của Đoàn Thanh niên Cộng sản Hồ Chí Minh và giải thưởng Top 100 Nơi Làm Việc Tốt Nhất Việt Nam năm 2018 - 2020. </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ông Warrick Cleine</h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ông Warrick Cleine là Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia. Ông là cố vấn tại Việt Nam trong hơn 20 năm và được công nhận là một trong những chuyên gia thuế hàng đầu của Việt Nam. Với kiến thức và kinh nghiệm sâu rộng tại Việt Nam về tư vấn và tuân thủ thuế, giải quyết tranh chấp thuế, cơ cấu và quản trị doanh nghiệp, ông đã góp mặt trong rất nhiều dự án tư vấn giao dịch thương mại của doanh nghiệp ở thị trường Việt Nam và Campuchia.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Warrick được cộng đồng doanh nghiệp tại Việt Nam biết đến và tôn trọng, ông có nhiều kinh nghiệm làm việc với chính quyền các cấp của Chính phủ. Ông là một nhà bình luận thường xuyên trên các phương tiện truyền thông Việt Nam về các vấn đề thuế, quản trị và kinh doanh.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ngoài việc đảm nhận các vai trò quan trọng trên tại KPMG, ông Cleine còn là Chủ tịch Phòng Thương mại New Zealand tại Việt Nam (New Zealand Chamber of Commerce in Vietnam), Chủ tịch Hội đồng Vận động Doanh nghiệp Anh tại Việt Nam (British Corporate Advocacy Council in Vietnam) và Giáo sư kiêm nhiệm tại Trường Kinh doanh &amp; Quản lý, Đại học RMIT Việt Nam.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà Nguyễn Đức Thạch Diễm</h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Thành viên HĐQT kiêm CEO - Ngân hàng TMCP Sài Gòn Thương Tín - Sacombank</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Bắt đầu sự nghiệp tại Sacombank từ vị trí nhân viên tín dụng vào năm 2002 và trải qua nhiều vị trí công tác, CEO Nguyễn Đức Thạch Diễm đã có nhiều đóng góp quan trọng cho hoạt động của Sacombank trong 18 năm qua. Bà được biết đến là một nhà lãnh đạo quyết liệt và bản lĩnh với một cái đầu \"lạnh\" và một trái tim \"nóng\".</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Điểm lại các cột mốc quan trọng trong sự nghiệp của bà Diễm tại Sacombank:</p>\n\n                                                <ul>\n                                                    <li>Từ năm 2013 – 2016, bà nhận nhiệm vụ điều hành Khu vực Nam Trung Bộ &amp; Tây Nguyên, vốn được xem là Khu vực đầy thử thách nhưng bà đã đưa Khu vực này dẫn đầu hệ thống Sacombank về hiệu quả kinh doanh.</li>\n                                                   <li>Tháng 5/2017, bà Diễm chính thức đảm nhiệm vai trò Tổng giám đốc.</li>\n                                                   <li>Tháng 4/2018, bà được bổ nhiệm giữ chức vụ Thành viên HĐQT kiêm TGĐ.</li>\n                                                </ul>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với sự dẫn dắt của CEO Nguyễn Đức Thạch Diễm, các vấn đề sau M&amp;A (chú trọng xử lý nợ xấu và tái cơ cấu mọi mặt hoạt động) của Sacombank đã được giải quyết nhanh chóng, hiệu quả; đưa Ngân hàng đi đúng hướng và duy trì tăng trưởng ổn định. </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/vuulequyen.jpg\" alt=\"Bà VƯU LỆ QUYÊN\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Bà <b>VƯU LỆ QUYÊN</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</i></h6>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/nitin.jpg\" alt=\"Ông NITIN KAPOOR\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Ông <b>NITIN KAPOOR</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Chủ tịch kiêm Tổng giám đốc AstraZeneca Việt Nam</i></h6>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/warric.jpg\" alt=\"Ông WARRICK CLEINE\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center  mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Ông <b>WARRICK CLEINE</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia</i></h6>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/ms-diem.jpg\" alt=\"Bà NGUYỄN ĐỨC THẠCH DIỄM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Bà <b>NGUYỄN ĐỨC THẠCH DIỄM</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Thành viên HĐQT kiêm CEO - Ngân hàng TMCP Sài Gòn Thương Tín - Sacombank</i></h6>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>VƯU LỆ QUYÊN</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tổng Giám Đốc - Công Ty TNHH Sản Xuất Hàng Tiêu Dùng Bình Tiên (Biti's)</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Trong thời đại xã hội có nhiều biến động, doanh nghiệp buộc phải thay đổi để thích ứng. Là một trong những doanh nghiệp lâu đời của Việt Nam, gần 40 năm tuổi, Biti's buộc phải chuyển mình để thay đổi. Biti's đã chọn lựa những chiến lược nào? Là một trong những CEO trẻ nhất với quy mô hơn 10.000 nhân sự, bà Vưu Lệ Quyên đã lựa chọn cách thích ứng bằng việc thay đổi toàn diện doanh nghiệp: từ văn hóa, quy trình vận hành, sản phẩm và tầm nhìn tiếp thị. Bà lựa chọn là một nhà lãnh đạo trắc ẩn, người đặt sự hạnh phúc và hiệu quả của cả cộng đồng lên hàng đầu. Dưới sự dẫn dắt của bà và sự đồng lòng của đồng sự, Biti's đã có sự chuyển mình một cách ngoạn mục đem lại nhiều thành quả, giá trị tích cực trong thời gian qua.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ông <b>NITIN KAPOOR</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Chủ tịch kiêm Tổng giám đốc AstraZeneca Việt Nam</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/nitin.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Dưới sự dẫn dắt của Nitin, AstraZeneca Việt Nam đã xuất sắc chuyển biến hoạt động kinh doanh với kết quả vượt trội, vượt qua nhiều thách thức của thị trường với nền tảng văn hóa doanh nghiệp được củng cố vững mạnh. Công ty cũng đã và đang thắt chặt mối quan hệ hợp tác với Chính phủ Việt Nam cũng như các đối tác y tế trong nhiều chương trình ý nghĩa nhằm phòng chống các bệnh không lây nhiễm và thúc đẩy mục tiêu phát triển bền vững, cũng như đóng góp trong cuộc chiến chống lại COVID-19 của Việt Nam qua việc cung ứng vắc xin. </p>\n\n                                                 <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với tôn chỉ đặt bệnh nhân làm trọng tâm những nỗ lực của công ty đã được ghi nhận với hai Bằng khen của Bộ trưởng Bộ Y Tế vào năm 2019 và 2020 vì những đóng góp tích cực trong công tác phòng, chống ung thư và đại dịch COVID-19 tại Việt Nam, Kỷ niệm chương Vì thế hệ trẻ của Đoàn Thanh niên Cộng sản Hồ Chí Minh và giải thưởng Top 100 Nơi Làm Việc Tốt Nhất Việt Nam năm 2018 - 2020. </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ông <b>WARRICK CLEINE</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/features1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ông Warrick Cleine là Chủ tịch kiêm Tổng Giám đốc KPMG tại Việt Nam và Campuchia. Ông là cố vấn tại Việt Nam trong hơn 20 năm và được công nhận là một trong những chuyên gia thuế hàng đầu của Việt Nam. Với kiến thức và kinh nghiệm sâu rộng tại Việt Nam về tư vấn và tuân thủ thuế, giải quyết tranh chấp thuế, cơ cấu và quản trị doanh nghiệp, ông đã góp mặt trong rất nhiều dự án tư vấn giao dịch thương mại của doanh nghiệp ở thị trường Việt Nam và Campuchia.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Warrick được cộng đồng doanh nghiệp tại Việt Nam biết đến và tôn trọng, ông có nhiều kinh nghiệm làm việc với chính quyền các cấp của Chính phủ. Ông là một nhà bình luận thường xuyên trên các phương tiện truyền thông Việt Nam về các vấn đề thuế, quản trị và kinh doanh.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ngoài việc đảm nhận các vai trò quan trọng trên tại KPMG, ông Cleine còn là Chủ tịch Phòng Thương mại New Zealand tại Việt Nam (New Zealand Chamber of Commerce in Vietnam), Chủ tịch Hội đồng Vận động Doanh nghiệp Anh tại Việt Nam (British Corporate Advocacy Council in Vietnam) và Giáo sư kiêm nhiệm tại Trường Kinh doanh &amp; Quản lý, Đại học RMIT Việt Nam.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo truyền cảm hứng</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>NGUYỄN ĐỨC THẠCH DIỄM</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Thành viên HĐQT kiêm CEO - Ngân hàng TMCP Sài Gòn Thương Tín - Sacombank</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/ms-diem.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Bắt đầu sự nghiệp tại Sacombank từ vị trí nhân viên tín dụng vào năm 2002 và trải qua nhiều vị trí công tác, CEO Nguyễn Đức Thạch Diễm đã có nhiều đóng góp quan trọng cho hoạt động của Sacombank trong 18 năm qua. Bà được biết đến là một nhà lãnh đạo quyết liệt và bản lĩnh với một cái đầu \"lạnh\" và một trái tim \"nóng\".</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Điểm lại các cột mốc quan trọng trong sự nghiệp của bà Diễm tại Sacombank:</p>\n\n                                                <ul>\n                                                    <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Từ năm 2013 – 2016, bà nhận nhiệm vụ điều hành Khu vực Nam Trung Bộ &amp; Tây Nguyên, vốn được xem là Khu vực đầy thử thách nhưng bà đã đưa Khu vực này dẫn đầu hệ thống Sacombank về hiệu quả kinh doanh.</li>\n                                                   <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tháng 5/2017, bà Diễm chính thức đảm nhiệm vai trò Tổng giám đốc.</li>\n                                                   <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tháng 4/2018, bà được bổ nhiệm giữ chức vụ Thành viên HĐQT kiêm TGĐ.</li>\n                                                </ul>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với sự dẫn dắt của CEO Nguyễn Đức Thạch Diễm, các vấn đề sau M&amp;A (chú trọng xử lý nợ xấu và tái cơ cấu mọi mặt hoạt động) của Sacombank đã được giải quyết nhanh chóng, hiệu quả; đưa Ngân hàng đi đúng hướng và duy trì tăng trưởng ổn định. </p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "gallery5-b3",
           "_isUserblock": true,
           "_cid": "sMtfHNjwYD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border": "none",
+              "border-radius": "4px",
+              "background-color": "@cardColor",
+              "padding": "0"
+            },
+            "hr": {
+              "background-color": "#f49f09"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <hr class=\"mb-4\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>2. Lãnh đạo phát triển con người</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Giải thưởng này tôn vinh Lãnh đạo/ Đội ngũ lãnh đạo đầy nhiệt huyết và có nhiều hoạt động cụ thể hỗ trợ tổ chức thu hút, phát triển và giữ chân đội ngũ nhân tài phù hợp. Họ khuyến khích và làm gương trong việc xây dựng một môi trường coi con người là trọng tâm, nhưng luôn có những thử thách mới để nhân viên liên tục gia tăng năng lực, thúc đẩy các cơ hội thăng tiến nội bộ và nuôi dưỡng được thế hệ lãnh đạo kế thừa.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "phattrienconnguoi",
+          "_isUserblock": true,
+          "_cid": "sMtIeB99YQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "& when (@autoSize)": {
+                "& when not (@showItemSubtitle)": {
+                  "height": "100%"
+                },
+                "& when (@showItemSubtitle)": {
+                  "height": "(@imageHeight * 100px)"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              "position": "relative",
+              ".icon-wrapper": {
+                "pointer-events": "none",
+                "position": "absolute",
+                "width": "60px",
+                "height": "60px",
+                "font-size": "22px",
+                "left": "50%",
+                "top": "50%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "border": "2px solid #ffffff",
+                "border-radius": "50%",
+                "opacity": "0",
+                "color": "#ffffff",
+                "transform": "translateX(-50%) translateY(-50%)",
+                "background-color": "#1b1b1b",
+                "transition": "0.2s"
+              },
+              "&:hover": {
+                ".icon-wrapper": {
+                  "opacity": "0.7"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem",
+              "span": {
+                "margin-right": "5px"
+              }
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem",
+              "span": {
+                "margin-left": "5px"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'Moririse2'",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#042d66",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "display": "flex",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "#ed9d11 ",
+              "border-radius": "50%",
+              "opacity": "1",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-inner": {
+              "display": "flex",
+              "padding": "0 7rem",
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control:hover": {
+              "background": "#ed9d11",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              },
+              ".carousel-inner": {
+                "padding": "0 2rem"
+              },
+              ".close": {
+                "top": "0",
+                "right": "0"
+              },
+              ".content-bio": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              },
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#000000",
+              "opacity": "0.5",
+              "border": "4px solid #000000"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "1440px",
+              "background-color": "#fff"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "H6": {
+              "text-align": "center"
+            },
+            ".content-bio": {
+              "text-align": "left",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".winner-intro": {
+              "text-align": "left",
+              "text-transform": "uppercase",
+              "color": "#969696",
+              "font-weight": "bold",
+              "margin-bottom": "2rem"
+            },
+            "h1.winner-name": {
+              "line-height": "1.6",
+              "color": "#1a1a1a",
+              "text-transform": "capitalize",
+              "font-family": "'Nunito', sans-serif"
+            },
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            }
+          },
+          "_name": "gallery5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/cocacola.jpg\" alt=\"Công Ty TNHH Nước Giải Khát Coca Cola Việt Nam\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>Công Ty TNHH Nước Giải Khát Coca Cola Việt Nam</b></h4>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/nguyenductai.jpg\" alt=\"Ông NGUYỄN ĐỨC TÀI\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Ông <b>NGUYỄN ĐỨC TÀI</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Chủ Tịch HĐQT -&nbsp; Công ty Cổ Phần Đầu Tư Thế Giới Di Động</i></h6>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/sanofi.jpg\" alt=\"SANOFI VIỆT NAM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>SANOFI VIỆT NAM</b></h4>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/lazada.jpg\" alt=\"LAZADA VIỆT NAM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>LAZADA VIỆT NAM</b></h4>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo phát triển con người</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Công Ty TNHH Nước Giải Khát Coca Cola Việt Nam</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/cocacola.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với mục tiêu lan tỏa sự sảng khoái và tạo nên sự khác biệt, con người đóng vai trò then chốt cho sự phát triển của Coca-Cola Việt Nam để mang lại tác động tích cực lớn lao cho xã hội, doanh nghiệp và cộng đồng. Đối mặt với vô vàn thách thức trong thời đại mới, đặc biệt trong quản lý và phát triển con người, Coca-Cola đã thay đổi phương thức lãnh đạo, làm việc và học hỏi để đẩy nhanh tốc độ phát triển. Ban lãnh đạo CCBVL đã dẫn dắt và hiện thực hóa giải pháp chiến lược: Xây dựng văn hóa Tăng trưởng cho Tổ chức Bền vững. Công ty tin rằng những xu hướng và cách thức đột phá trong hoạt động Đào tạo và Phát triển của mình sẽ giúp tổ chức đi đến thành công. Coca-Cola Việt Nam đã tối ưu hóa trải nghiệm của nhân viên, xây dựng sự kết nối chặt chẽ, đồng thời xây dựng văn hóa hiệu suất cao và phát triển năng lực chuyên biệt cho nhân viên để Công ty dẫn đầu thị trường và khẳng định vị thế Nhà tuyển dụng hàng đầu.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo phát triển con người</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ông <b>NGUYỄN ĐỨC TÀI</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Chủ Tịch HĐQT -  Công ty Cổ Phần Đầu Tư Thế Giới Di Động</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/nguyenductai.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Suốt 17 năm qua, ông Đức Tài luôn là người thuyền trưởng hết lòng chăm lo quyền lợi, hạnh phúc và xây dựng niềm tự hào trong mỗi nhân viên Thế Giới Di Động. Ông dẫn dắt công ty đạt những thành tựu đáng kể với triết lý quản trị con người rõ ràng và cam kết phát triển nguồn lực từ nhân viên đến quản lý, ngay từ những năm đầu tiên.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ông Tài và ban lãnh đạo đã tháo gỡ từng nút thắt trong phát triển nguồn nhân lực, động viên đội ngũ, kết nối hơn 60.000 nhân viên trong tổ chức. Ông khuyến khích và làm gương trong việc xây dựng môi trường làm việc lấy con người làm trung tâm, khuyến khích nhân viên nâng cao năng lực và kỹ năng, tạo điều kiện thăng tiến nội bộ và xây dựng thế hệ lãnh đạo kế thừa.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Bất chấp một năm khó khăn do đại dịch toàn cầu, Thế Giới Di Động tiếp tục ghi nhận mức tăng trưởng doanh thu hơn 6%, đạt 108.546 tỷ đồng, LNST tăng hơn 2% với tổng mức 3.920 tỷ đồng năm 2020 và đảm bảo việc làm cho hơn 60.000 nhân viên.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo phát triển con người</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>SANOFI VIỆT NAM</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/sanofi.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Đại dịch Covid-19 đặt ra nhiều thử thách cho hoạt động của Sanofi cũng như kế hoạch quản trị con người. Trong bối cảnh đầy bất trắc như vậy, Sanofi cần phải có cách làm việc mới và áp dụng các chiến lược thích ứng để vận hành hiệu quả.</p>\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">4 vị Tổng giám đốc ngay lập tức chung tay tạo ra những làn sóng thay đổi. Kết quả là Sanofi không chỉ đạt được sứ mệnh dẫn đầu thị trường dược phẩm mà các mối quan hệ nội bộ, hiệu quả công việc và chiến lược gắn kết thị trường cũng được nâng cao.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo phát triển con người</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>LAZADA VIỆT NAM</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/lazada.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Thành lập từ năm 2012, Lazada Việt Nam là nền tảng tiên phong và đóng vai trò quan trọng trong việc phát triển và định hình ngành thương mại điện tử tại Việt Nam dưới sự điều hành của tập đoàn Lazada. Với \"con người là giá trị cốt lõi\", việc tiếp tục xây dựng đội ngũ nhân sự tại Việt Nam luôn là một trong những ưu tiên hàng đầu của Lazada. Công ty tập trung tuyển đúng người, trao quyền và nuôi dưỡng nhân tài qua các chương trình phát triển năng lực, gắn kết nội bộ, trong môi trường văn hóa tôn trọng giá trị và kết quả. Nhờ vậy, Lazada Việt Nam tự hào là vườn ươm tài năng trong ngành.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li><li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery5-b8",
+          "_isUserblock": true,
+          "_cid": "sMtIDaj4om",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border": "none",
+              "border-radius": "4px",
+              "background-color": "@cardColor",
+              "padding": "0"
+            },
+            "hr": {
+              "background-color": "#f49f09"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <hr class=\"mb-4\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>3. Lãnh đạo đột phá</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Giải thưởng này tôn vinh Lãnh đạo/ Đội ngũ lãnh đạo đầy nhiệt huyết và có nhiều hoạt động cụ thể hỗ trợ tổ chức thu hút, phát triển và giữ chân đội ngũ nhân tài phù hợp. Họ khuyến khích và làm gương trong việc xây dựng một môi trường coi con người là trọng tâm, nhưng luôn có những thử thách mới để nhân viên liên tục gia tăng năng lực, thúc đẩy các cơ hội thăng tiến nội bộ và nuôi dưỡng được thế hệ lãnh đạo kế thừa.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "lanhdaodotpha",
+          "_isUserblock": true,
+          "_cid": "sMtWnlMl1p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "& when (@autoSize)": {
+                "& when not (@showItemSubtitle)": {
+                  "height": "100%"
+                },
+                "& when (@showItemSubtitle)": {
+                  "height": "(@imageHeight * 100px)"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              "position": "relative",
+              ".icon-wrapper": {
+                "pointer-events": "none",
+                "position": "absolute",
+                "width": "60px",
+                "height": "60px",
+                "font-size": "22px",
+                "left": "50%",
+                "top": "50%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "border": "2px solid #ffffff",
+                "border-radius": "50%",
+                "opacity": "0",
+                "color": "#ffffff",
+                "transform": "translateX(-50%) translateY(-50%)",
+                "background-color": "#1b1b1b",
+                "transition": "0.2s"
+              },
+              "&:hover": {
+                ".icon-wrapper": {
+                  "opacity": "0.7"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem",
+              "span": {
+                "margin-right": "5px"
+              }
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem",
+              "span": {
+                "margin-left": "5px"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'Moririse2'",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#042d66",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "display": "flex",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "#ed9d11 ",
+              "border-radius": "50%",
+              "opacity": "1",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-inner": {
+              "display": "flex",
+              "padding": "0 7rem",
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control:hover": {
+              "background": "#ed9d11",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              },
+              ".carousel-inner": {
+                "padding": "0 2rem"
+              },
+              ".close": {
+                "top": "0",
+                "right": "0"
+              },
+              ".content-bio": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              },
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#000000",
+              "opacity": "0.5",
+              "border": "4px solid #000000"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "1440px",
+              "background-color": "#fff"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "H6": {
+              "text-align": "center"
+            },
+            ".content-bio": {
+              "text-align": "left",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".winner-intro": {
+              "text-align": "left",
+              "text-transform": "uppercase",
+              "color": "#969696",
+              "font-weight": "bold",
+              "margin-bottom": "2rem"
+            },
+            "h1.winner-name": {
+              "line-height": "1.6",
+              "color": "#1a1a1a",
+              "text-transform": "capitalize",
+              "font-family": "'Nunito', sans-serif"
+            },
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            }
+          },
+          "_name": "gallery5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/ms-hoa.jpg\" alt=\"Bà NGUYỄN THỊ THU HÒA\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\">Bà <b>NGUYỄN THỊ THU HÒA</b></h4>\n                      <h6 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><i>Tổng Giám Đốc - ADP GROUP</i></h6>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/grab.jpg\" alt=\"GRAB\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>GRAB</b></h4>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/yeah1.jpg\" alt=\"Công Ty Cổ Phần Yeah1 eDigital\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>Công Ty Cổ Phần Yeah1 eDigital</b></h4>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo đột phá</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Bà <b>NGUYỄN THỊ THU HÒA</b></h1>\n                                            <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tổng Giám Đốc - ADP GROUP</p>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/ms-hoa.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Gia nhập ADP từ 2013 với vị trí Giám đốc Kinh doanh &amp; Tiếp thị, sau đó trở thành Giám đốc chi nhánh Hà Nội kiêm Phó Tổng Giám đốc năm 2015, bà Hoà là người chịu trách nhiệm chính cho Sự tăng trưởng Kinh doanh của ADP. Sau 8 năm, sự cống hiến hết mình của bà đã giúp doanh thu của ADP tăng từ 90 tỷ đồng năm 2013 lên 450 tỷ đồng năm 2020 và đón đầu thị trường văn phòng phân khúc khu công nghiệp bằng sự ra đời của công ty Space.s. Và sau 7 làm việc tại ADP Group, bà Hòa đã đồng hành cùng các nhà sáng lập với cương vị Tổng giám đốc giúp công ty tiếp tục phát triển mạnh mẽ và đương đầu với những thách thức trên hành trình kiến tạo các không gian làm việc tại Việt Nam</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với vai trò CEO, bà Hòa đã đẩy mạnh phát triển con người là trọng tâm chiến lược cho công ty. Cùng với khả năng lãnh đạo và truyền cảm hứng, bà đã giúp nhân viên công ty gắn kết hơn đặc biệt trong thời kì khó khăn do dịch Covid-19.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo đột phá</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>GRAB</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/nitin.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Năm 2020, diễn biến phức tạp của đại dịch Covid-19 đã gây ra thử thách vô cùng to lớn đến hoạt động kinh doanh của mọi doanh nghiệp, trong đó có Grab Việt Nam. Trong bối cảnh đó, đội ngũ lãnh đạo của Grab đã lập tức xây dựng các kế hoạch và chiến lược hiệu quả để đưa Grab vượt qua khó khăn. Ngoài việc củng cố mảng dịch vụ cốt lõi là di chuyển, đội ngũ lãnh đạo còn nhanh chóng đẩy mạnh dịch vụ giao nhận, ra mắt thêm nhiều dịch vụ và tính năng mới để kịp thời đáp ứng nhu cầu tiêu dùng của người dân, đồng thời hỗ trợ Chính phủ phòng chống dịch.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Bên cạnh đó, đội ngũ “lãnh đạo phục vụ” của Grab luôn truyền cảm hứng, xây dựng niềm tin với nhân viên, xây dựng văn hóa doanh nghiệp đoàn kết, sáng tạo. Nhờ đó, Grab Việt Nam đã từng bước vượt qua nhiều giai đoạn khó khăn của đại dịch, phục vụ cộng đồng xuyên suốt, tạo thêm cơ hội thu nhập cho đối tác cũng như đem lại dịch vụ an toàn cho người dùng trên nền tảng của mình.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lãnh đạo đột phá</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Công Ty Cổ Phần Yeah1 eDigital</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/yeah1.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Yeah1 EDigital là một trong những công ty truyền thông tiên phong ở lĩnh vực kỹ thuật số với thế mạnh ứng dụng công nghệ hàng đầu tại Việt Nam. Suốt hơn 10 năm qua, công ty đã khẳng định được vị thế và sức mạnh cỗ máy truyền thông xuyên biên giới của mình. </p>\n\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Kế thừa và phát huy những ưu thế từ hệ sinh thái truyền thông “giàu có”, đội ngũ lãnh đạo trẻ của Yeah1 EDigital không ngừng đưa ra những chiến lược “đột phá” và dẫn dắt công ty qua một hành trình chuyển đổi mạnh mẽ cũng như nhiều tác động tích cực đến người dùng internet tại Việt Nam. </p>\n\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Điều này được minh chứng khi sức trẻ của khối Digital đã đưa Yeah1 duy trì vị thế dẫn đầu truyền thông tại Việt Nam và nằm ở vị trí Top 7 các công ty truyền thông kỹ thuật số hàng đầu của khu vực APAC, với hơn 3 Tỷ lượt xem tạo ra hàng tháng và gần 200 triệu lượt người theo dõi trên các nền tảng mạng xã hội. </p>\n\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Chưa bao giờ dừng lại trên con đường kiến tạo xu thế truyền thông vươn tầm quốc tế, Yeah1 coi đây tiếp tục là mảng mũi nhọn đồng thời là công cụ tạo lợi thế vượt trội cho hệ sinh thái chuyển đổi sang những lĩnh vực mới đầy tiềm năng trong đó có xu hướng thương mại điện tử mạng xã hội trên thế giới.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery5-bf",
+          "_isUserblock": true,
+          "_cid": "sMtWoLLUjq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "img": {
+              "height": "250px",
+              "@media (max-width: 768px)": {
+                "height": "100%"
+              }
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"slider2\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Height\" name=\"carouselHeight\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlaySlide\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlaySlideColor\" value=\"#232323\" condition=\"overlaySlide\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlaySlideOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlaySlide\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\" selected>\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-12\">\n                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/hr-banner.jpg\" alt=\"HR Excellence\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "hr_winner",
+          "_isUserblock": true,
+          "_cid": "sMu5Iv9Dm8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border": "none",
+              "border-radius": "4px",
+              "background-color": "@cardColor",
+              "padding": "0"
+            },
+            "hr": {
+              "background-color": "#f49f09"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <hr class=\"mb-4\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>1. Đa dạng &amp; Hòa hợp</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Hạng mục này vinh danh doanh nghiệp có chiến lược xuất sắc trong xây dựng và phát triển lực lượng lao động đa dạng, qua đó thúc đẩy văn hóa hòa nhập, cởi mở, nơi nhân viên cảm thấy được là chính mình, được tôn trọng, thể hiện bản thân và đóng góp tốt nhất.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content7-bh",
+          "_isUserblock": true,
+          "_cid": "sMu75twmwU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "& when (@autoSize)": {
+                "& when not (@showItemSubtitle)": {
+                  "height": "100%"
+                },
+                "& when (@showItemSubtitle)": {
+                  "height": "(@imageHeight * 100px)"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              "position": "relative",
+              ".icon-wrapper": {
+                "pointer-events": "none",
+                "position": "absolute",
+                "width": "60px",
+                "height": "60px",
+                "font-size": "22px",
+                "left": "50%",
+                "top": "50%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "border": "2px solid #ffffff",
+                "border-radius": "50%",
+                "opacity": "0",
+                "color": "#ffffff",
+                "transform": "translateX(-50%) translateY(-50%)",
+                "background-color": "#1b1b1b",
+                "transition": "0.2s"
+              },
+              "&:hover": {
+                ".icon-wrapper": {
+                  "opacity": "0.7"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem",
+              "span": {
+                "margin-right": "5px"
+              }
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem",
+              "span": {
+                "margin-left": "5px"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'Moririse2'",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#042d66",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "display": "flex",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "#ed9d11 ",
+              "border-radius": "50%",
+              "opacity": "1",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-inner": {
+              "display": "flex",
+              "padding": "0 7rem",
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control:hover": {
+              "background": "#ed9d11",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              },
+              ".carousel-inner": {
+                "padding": "0 2rem"
+              },
+              ".close": {
+                "top": "0",
+                "right": "0"
+              },
+              ".content-bio": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              },
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#000000",
+              "opacity": "0.5",
+              "border": "4px solid #000000"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "1440px",
+              "background-color": "#fff"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "H6": {
+              "text-align": "center"
+            },
+            ".content-bio": {
+              "text-align": "left",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".winner-intro": {
+              "text-align": "left",
+              "text-transform": "uppercase",
+              "color": "#969696",
+              "font-weight": "bold",
+              "margin-bottom": "2rem"
+            },
+            "h1.winner-name": {
+              "line-height": "1.6",
+              "color": "#1a1a1a",
+              "text-transform": "capitalize",
+              "font-family": "'Nunito', sans-serif"
+            },
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            },
+            ".hr-winner": {
+              "border": "1px solid #cecece"
+            }
+          },
+          "_name": "gallery5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/deloite.jpg\" alt=\"Công ty TNHH Deloitte Việt Nam\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>Công ty TNHH Deloitte Việt Nam</b></h4>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/mec.jpg\" alt=\"Công ty TNHH Mercedes-Benz Việt Nam\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>Công ty TNHH Mercedes-Benz Việt Nam</b></h4>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/logo-3-500x500.jpg\" alt=\"KPMG VIỆT NAM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>KPMG VIỆT NAM</b></h4>\n                </div>\n            </div>\n            \n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Đa dạng &amp; Hòa hợp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Công ty TNHH Deloitte Việt Nam</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/deloite.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tạo dựng những giá trị lâu bền và hoạt động hướng tới sự phát triển bền vững luôn luôn là sứ mệnh của Deloitte Việt Nam trong suốt ba thập kỷ kiến tạo ảnh hưởng tích cực tới Khách hàng, Nhân viên và Cộng đồng.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Đa dạng &amp; Hòa hợp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Công ty TNHH Mercedes-Benz Việt Nam</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/mec.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Đối mặt với những thay đổi liên tục và thách thức khôn lường từ công nghệ và xã hội, MBV xác định rõ chiến lược nhân sự xuất sắc sẽ giúp họ giải các bài toán hóc búa này, tạo ra những chiếc xe và dịch vụ tốt nhất trong tương lai, đồng thời giữ vững vị trí số 1 trên thị trường ô tô cao cấp tại Việt Nam.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Đa dạng &amp; Hòa hợp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>KPMG VIỆT NAM</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/kpmg.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tại KPMG, Sự đa dạng và hòa nhập là trung tâm của các giá trị cốt lõi của công ty, và được thể hiện rõ nét thông qua các chương trình đào tạo và các sự kiện gắn kết nhân viên. Sự đa dạng và hòa nhập này là dành cho cho tất cả mọi người, bất kể giới tính, nền tảng văn hóa, tuổi tác hoặc bất kỳ đặc điểm khác biệt nào.</p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Đối với KPMG, cách tiếp cận cho sự hòa nhập cũng chính là tạo điều kiện cho mọi nhân viên được tiếp cận với những cơ hội như nhau để phát triển, để trở thành phiên bản tốt nhất của họ và giúp nhân viên cảm thấy đủ tự tin để cống hiến hết mình trong công việc. Năm 2021, KPMG đã hợp tác với Các lãnh sự quán của Úc, Anh, Hoa Kỳ, cùng với tổ chức ICS và tổ chức Đối thoại Lãnh đạo Úc (Australian Leadership Dialogue) cùng khởi động Mạng lưới Pride dành cho các Doanh nghiệp tại Việt Nam (Vietnam Corporate Pride Network) nhằm thúc đẩy sự hòa nhập cho nhân viên LGBT và các cộng đồng của họ.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                \n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery5-bk",
+          "_isUserblock": true,
+          "_cid": "sMu7dUVNKq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border": "none",
+              "border-radius": "4px",
+              "background-color": "@cardColor",
+              "padding": "0"
+            },
+            "hr": {
+              "background-color": "#f49f09"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#f49f09\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <hr class=\"mb-4\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>2. Văn hóa doanh nghiệp</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Hạng mục này vinh danh các tổ chức đã định hình, phát triển văn hóa doanh nghiệp theo sát với sứ mệnh chung và liên tục cải thiện để tạo dựng, nuôi dưỡng một môi trường tích cực, khuyến khích nhân viên cống hiến, phát triển và gắn bó lâu dài.</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content7-bl",
+          "_isUserblock": true,
+          "_cid": "sMuci0Sycy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when (@spacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "& when (@autoSize)": {
+                "& when not (@showItemSubtitle)": {
+                  "height": "100%"
+                },
+                "& when (@showItemSubtitle)": {
+                  "height": "(@imageHeight * 100px)"
+                },
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              "position": "relative",
+              ".icon-wrapper": {
+                "pointer-events": "none",
+                "position": "absolute",
+                "width": "60px",
+                "height": "60px",
+                "font-size": "22px",
+                "left": "50%",
+                "top": "50%",
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "border": "2px solid #ffffff",
+                "border-radius": "50%",
+                "opacity": "0",
+                "color": "#ffffff",
+                "transform": "translateX(-50%) translateY(-50%)",
+                "background-color": "#1b1b1b",
+                "transition": "0.2s"
+              },
+              "&:hover": {
+                ".icon-wrapper": {
+                  "opacity": "0.7"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem",
+              "span": {
+                "margin-right": "5px"
+              }
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem",
+              "span": {
+                "margin-left": "5px"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'Moririse2'",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#042d66",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "display": "flex",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "#ed9d11 ",
+              "border-radius": "50%",
+              "opacity": "1",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              },
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-inner": {
+              "display": "flex",
+              "padding": "0 7rem",
+              "background-color": "#ffffff",
+              "@media (max-width: 768px)": {
+                "overflow": "scroll"
+              }
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control:hover": {
+              "background": "#ed9d11",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              },
+              ".carousel-inner": {
+                "padding": "0 2rem"
+              },
+              ".close": {
+                "top": "0",
+                "right": "0"
+              },
+              ".content-bio": {
+                "padding-top": "2rem",
+                "padding-right": "0",
+                "padding-left": "0"
+              },
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#000000",
+              "opacity": "0.5",
+              "border": "4px solid #000000"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "1440px",
+              "background-color": "#fff"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "H6": {
+              "text-align": "center"
+            },
+            ".content-bio": {
+              "text-align": "left",
+              "padding-right": "2rem",
+              "padding-left": "2rem"
+            },
+            ".winner-intro": {
+              "text-align": "left",
+              "text-transform": "uppercase",
+              "color": "#969696",
+              "font-weight": "bold",
+              "margin-bottom": "2rem"
+            },
+            "h1.winner-name": {
+              "line-height": "1.6",
+              "color": "#1a1a1a",
+              "text-transform": "capitalize",
+              "font-family": "'Nunito', sans-serif"
+            },
+            ".ul": {
+              "margin-left": "-20px"
+            },
+            ".title-category": {
+              "color": "#ed9d11"
+            },
+            "h6.display-7": {
+              "font-size": "1rem!important"
+            },
+            ".hr-winner": {
+              "border": "1px solid #cecece"
+            }
+          },
+          "_name": "gallery5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"gallery5 mbr-gallery\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"idGallery\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && showItemSubtitle\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showItemSubtitle\" checked>\n        <header>Popup Slider</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type!=='color'\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth,\n                    'container-fluid': fullWidth}\">\n        \n        <div class=\"row mbr-gallery\">\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/nashtech.jpg\" alt=\"NASHTECH\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>NASHTECH</b></h4>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/oppo.jpg\" alt=\"OPPO VIỆT NAM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>OPPO VIỆT NAM</b></h4>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/grab-logo.jpg\" alt=\"GRAB\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>GRAB</b></h4>\n                </div>\n            </div><div class=\"col-12 col-md-6 col-lg-{{cardsWidth}} item gallery-image\">\n                <div class=\"item-wrapper\" data-toggle=\"modal\" data-target=\"#{{idGallery}}-modal\">\n                    <img class=\"w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/astra.jpg\" alt=\"CÔNG TY TNHH ASTRAZENECA VIỆT NAM\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\">\n                    <div class=\"icon-wrapper\">\n                        <span class=\"mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                    </div>\n                </div>\n                <div class=\"winner-caption\">\n                      <h4 class=\"mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-4 \" mbr-theme-style=\"display-7\" mbr-if=\"showItemSubtitle\"><b>CÔNG TY TNHH ASTRAZENECA VIỆT NAM</b></h4>\n                </div>\n            </div>\n            \n        </div>\n\n        <div class=\"modal mbr-slider\" id=\"{{idGallery}}-modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Văn hóa doanh nghiệp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>NASHTECH</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/deloite.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Trong 21 năm qua, NashTech tự hào là một trong những doanh nghiệp góp phần thúc đẩy vị thế của Việt Nam trên bản đồ công nghệ thế giới.\nĐặc biệt, doanh nghiệp luôn quan tâm đến khía cạnh con người của NashTech, bởi đây là yếu tố đem lại giá trị và thành công đến với khách hàng. </p>\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Thông qua ba nền tảng cốt lõi:</p>\n                                               <ul>\n                                                  <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Văn hóa tưởng thưởng</li>\n                                                  <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Văn hóa học tập không ngừng</li>\n                                                  <li class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">NashTech - Ngôi nhà thứ hai của bạn.</li>\n                                               </ul>\n                                               <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">NashTech tham vọng nhiều dự định nhằm mang đến cơ hội phát triển nghề nghiệp tốt nhất cho những nhân tài công nghệ.\nVới năng lực công nghệ và nguồn nhân lực dồi dào, NashTech đã sẵn sàng để bước vào tương lai đầy hứa hẹn phía trước với một tâm trí vững vàng và tự tin.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Văn hóa doanh nghiệp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>OPPO VIỆT NAM</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/mec.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Vượt qua khó khăn buổi ban đầu, OPPO Việt Nam đã đạt được những kết quả đột phá nhờ chiến lược tổ chức dựa trên văn hóa. Tích cực định hình văn hóa công ty, nâng cao nhận thức, hiểu biết và thực hành qua nhiều hoạt động cụ thể, OPPO Việt Nam đã xây dựng được môi trường làm việc hạnh phúc cho nhân viên, duy trì nguồn nhân lực bền vững với chỉ số hạnh phúc tăng dần đều mỗi năm.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                \n                                <div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Văn hóa doanh nghiệp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>GRAB</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"false\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Sự phát triển của nền tảng số trong kỷ nguyên \"bình thường mới\" đã đặt ra nhiều thách thức trong việc xây dựng và phát triển văn hóa doanh nghiệp.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với Grab, đội ngũ nhân sự là trái tim của công ty và một công ty thành công được tạo nên từ những con người hạnh phúc! Do đó, Grab tạo ra môi trường làm việc lý tưởng đảm bảo sức khỏe tinh thần và thể chất cho Grabbers, trao quyền để Grabbers có thể phát huy năng lực tối đa. Đặc biệt trong bối cảnh Covid, Grab tin rằng các hoạt động gắn kết nhân viên đóng vai trò quan trọng trong việc thúc đẩy hợp tác giữa các phòng ban cũng như các thành viên trong nhóm.</p>\n\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Tại Grab, văn hóa doanh nghiệp được coi là ADN của Grabbers, cùng với nguyên tắc 4H (Heart-Hunger-Honor-Humility) thấm nhuần trong từng cá nhân, đội nhóm và là kim chỉ nam trong mọi quyết định về nhân sự và vận hành của doanh nghiệp. Grabbers luôn hướng về cộng đồng, cùng nhau đưa Việt Nam và Đông Nam Á tiến về phía trước như sứ mệnh mà công ty đề ra.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div><div class=\"carousel-item\">\n                                    <div class=\"row\">\n                                        <div class=\"col-12 winner-intro\">\n                                            <h2 class=\"title-category mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Văn hóa doanh nghiệp</h2>\n                                            <h1 class=\"mbr-section-title mbr-fonts-style m-0 winner-name mt-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>CÔNG TY TNHH ASTRAZENECA VIỆT NAM</b></h1>\n                                        </div>\n                                        <div class=\"col-12 col-md-4\">\n                                            <img class=\"d-block w-100 hr-winner\" src=\"@PROJECT_PATH@/assets/images/astra.jpg\" alt>\n                                        </div>\n                                        <div class=\"col-12 col-md-8\">\n                                            <div class=\"content-bio\">\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Nối tiếp hành trình 27 năm thành công tại Việt Nam, AstraZeneca đang bước vào một chương phát triển mới với mục tiêu vươn lên hàng đầu trong ngành, vừa tiếp tục đóng góp toàn diện cho ngành y tế nhờ việc đẩy mạnh đầu tư cho nghiên cứu & phát triển, cam kết đóng góp cho phát triển bền vững và nâng cao năng lực chăm sóc sức khỏe. Việc thực hiện mục tiêu đột phá này đòi hỏi một động lực và khát vọng mạnh mẽ từ tập thể AstraZeneca. </p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Với chiến lược củng cố và thực thi xuất sắc sức mạnh văn hóa doanh nghiệp, AstraZeneca Việt Nam đã không chỉ thực hiện được mục tiêu tăng trưởng đầy ấn tượng mà còn vững chãi phát triển trước những thách thức trong ngành và khó khăn đến từ đại dịch Covid-19. Một yếu tố quan trọng giúp AstraZeneca Việt Nam thành công chính là sự chuyển mình, phát triển và nuôi dưỡng văn hóa doanh nghiệp có tính hợp tác cao, trao quyền cho nhân viên và cởi mở với các ý tưởng mới. Văn hóa này đã xây dựng nên một tập thể đầy tham vọng và gắn kết, nhưng đồng thời vẫn linh hoạt và sẵn sàng đáp ứng với mọi thay đổi để dẫn đầu. </p>\n                                                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">AstraZeneca Việt Nam đã xây dựng được tên tuổi doanh nghiệp như một nơi làm việc lý tưởng cho các tài năng trong lĩnh vực chăm sóc sức khỏe.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n\n                                \n                            </div>\n\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>                                \n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery5-bm",
+          "_isUserblock": true,
+          "_cid": "sMucnM8c3i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
