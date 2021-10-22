@@ -6446,11 +6446,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMtfHNjwYD .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMtfHNjwYD .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -6525,6 +6520,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMtfHNjwYD .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMtfHNjwYD .winner-intro {
   text-align: left;
@@ -6756,11 +6758,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMtIDaj4om .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMtIDaj4om .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -6835,6 +6832,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMtIDaj4om .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMtIDaj4om .winner-intro {
   text-align: left;
@@ -7066,11 +7070,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMtWoLLUjq .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMtWoLLUjq .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -7145,6 +7144,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMtWoLLUjq .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMtWoLLUjq .winner-intro {
   text-align: left;
@@ -7376,32 +7382,6 @@ a {
   color: #fff;
   opacity: 1;
 }
-@media (max-width: 767px) {
-  .cid-sMu7dUVNKq .carousel-control,
-  .cid-sMu7dUVNKq .carousel-indicators,
-  .cid-sMu7dUVNKq .modal .close {
-    position: fixed;
-  }
-  .cid-sMu7dUVNKq .carousel-inner {
-    padding: 0 2rem;
-  }
-  .cid-sMu7dUVNKq .close {
-    top: 0;
-    right: 0;
-  }
-  .cid-sMu7dUVNKq .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .cid-sMu7dUVNKq .mbr-slider .carousel-control {
-    top: auto;
-    bottom: 20px;
-  }
-  .cid-sMu7dUVNKq .mbr-slider > .container .carousel-control {
-    margin-bottom: 0;
-  }
-}
 .cid-sMu7dUVNKq .carousel-indicators .active,
 .cid-sMu7dUVNKq .carousel-indicators li {
   width: 7px;
@@ -7469,6 +7449,13 @@ a {
   padding-right: 2rem;
   padding-left: 2rem;
 }
+@media (max-width: 767px) {
+  .cid-sMu7dUVNKq .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 .cid-sMu7dUVNKq .winner-intro {
   text-align: left;
   text-transform: uppercase;
@@ -7493,6 +7480,27 @@ a {
 }
 .cid-sMu7dUVNKq .hr-winner {
   border: 1px solid #cecece;
+}
+@media (max-width: 767px) {
+  .cid-sMu7dUVNKq .carousel-control,
+  .cid-sMu7dUVNKq .carousel-indicators,
+  .cid-sMu7dUVNKq .modal .close {
+    position: fixed;
+  }
+  .cid-sMu7dUVNKq .carousel-inner {
+    padding: 0 2rem;
+  }
+  .cid-sMu7dUVNKq .close {
+    top: 0;
+    right: 0;
+  }
+  .cid-sMu7dUVNKq .mbr-slider .carousel-control {
+    top: auto;
+    bottom: 20px;
+  }
+  .cid-sMu7dUVNKq .mbr-slider > .container .carousel-control {
+    margin-bottom: 0;
+  }
 }
 .cid-sMuci0Sycy {
   padding-top: 0rem;
@@ -7702,11 +7710,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMucnM8c3i .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMucnM8c3i .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -7781,6 +7784,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMucnM8c3i .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMucnM8c3i .winner-intro {
   text-align: left;
@@ -8015,11 +8025,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMueQW5kik .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMueQW5kik .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -8094,6 +8099,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMueQW5kik .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMueQW5kik .winner-intro {
   text-align: left;
@@ -8328,11 +8340,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMugCm2V9i .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMugCm2V9i .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -8407,6 +8414,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMugCm2V9i .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMugCm2V9i .winner-intro {
   text-align: left;
@@ -8641,11 +8655,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMuiWKXh7D .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMuiWKXh7D .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -8720,6 +8729,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMuiWKXh7D .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMuiWKXh7D .winner-intro {
   text-align: left;
@@ -8954,11 +8970,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMuiXPV7mz .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMuiXPV7mz .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -9033,6 +9044,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMuiXPV7mz .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMuiXPV7mz .winner-intro {
   text-align: left;
@@ -9267,11 +9285,6 @@ a {
     top: 0;
     right: 0;
   }
-  .cid-sMuiYU2EyU .content-bio {
-    padding-top: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
   .cid-sMuiYU2EyU .mbr-slider .carousel-control {
     top: auto;
     bottom: 20px;
@@ -9346,6 +9359,13 @@ a {
   text-align: left;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sMuiYU2EyU .content-bio {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .cid-sMuiYU2EyU .winner-intro {
   text-align: left;
