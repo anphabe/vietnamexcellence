@@ -8022,6 +8022,10 @@
               "width": "300px",
               "@media (min-width: 768px)": {
                 "width": "auto"
+              },
+              "@media (max-width: 767px)": {
+                "position": "relative",
+                "width": "40%"
               }
             },
             ".carousel-control, .close": {
@@ -8272,6 +8276,15 @@
               },
               ".align-center": {
                 "text-align": "left!important"
+              },
+              ".item": {
+                "padding-bottom": "0"
+              }
+            },
+            ".winner-caption": {
+              "@media (max-width: 767px)": {
+                "margin-left": "10px",
+                "width": "calc(60% - 10px)"
               }
             }
           },
@@ -8388,6 +8401,14 @@
                 ".icon-wrapper": {
                   "opacity": "0.7"
                 }
+              },
+              "width": "300px",
+              "@media (min-width: 768px)": {
+                "width": "auto"
+              },
+              "@media (max-width: 767px)": {
+                "position": "relative",
+                "width": "40%"
               }
             },
             ".carousel-control, .close": {
@@ -8638,6 +8659,15 @@
               },
               ".align-center": {
                 "text-align": "left!important"
+              },
+              ".item": {
+                "padding-bottom": "0"
+              }
+            },
+            ".winner-caption": {
+              "@media (max-width: 767px)": {
+                "margin-left": "10px",
+                "width": "calc(60% - 10px)"
               }
             }
           },
@@ -8754,6 +8784,14 @@
                 ".icon-wrapper": {
                   "opacity": "0.7"
                 }
+              },
+              "width": "300px",
+              "@media (min-width: 768px)": {
+                "width": "auto"
+              },
+              "@media (max-width: 767px)": {
+                "position": "relative",
+                "width": "40%"
               }
             },
             ".carousel-control, .close": {
@@ -9004,6 +9042,15 @@
               },
               ".align-center": {
                 "text-align": "left!important"
+              },
+              ".item": {
+                "padding-bottom": "0"
+              }
+            },
+            ".winner-caption": {
+              "@media (max-width: 767px)": {
+                "margin-left": "10px",
+                "width": "calc(60% - 10px)"
               }
             }
           },

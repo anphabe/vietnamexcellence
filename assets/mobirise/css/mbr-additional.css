@@ -6301,6 +6301,12 @@ a {
     width: auto;
   }
 }
+@media (max-width: 767px) {
+  .cid-sMtfHNjwYD .item-wrapper {
+    position: relative;
+    width: 40%;
+  }
+}
 .cid-sMtfHNjwYD .carousel-control,
 .cid-sMtfHNjwYD .close {
   background: #1b1b1b;
@@ -6569,6 +6575,15 @@ a {
   .cid-sMtfHNjwYD .align-center {
     text-align: left!important;
   }
+  .cid-sMtfHNjwYD .item {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMtfHNjwYD .winner-caption {
+    margin-left: 10px;
+    width: calc(50%);
+  }
 }
 .cid-sMtIeB99YQ {
   padding-top: 0rem;
@@ -6604,6 +6619,7 @@ a {
 }
 .cid-sMtIDaj4om .item-wrapper {
   position: relative;
+  width: 300px;
 }
 .cid-sMtIDaj4om .item-wrapper .icon-wrapper {
   pointer-events: none;
@@ -6626,6 +6642,17 @@ a {
 }
 .cid-sMtIDaj4om .item-wrapper:hover .icon-wrapper {
   opacity: 0.7;
+}
+@media (min-width: 768px) {
+  .cid-sMtIDaj4om .item-wrapper {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMtIDaj4om .item-wrapper {
+    position: relative;
+    width: 40%;
+  }
 }
 .cid-sMtIDaj4om .carousel-control,
 .cid-sMtIDaj4om .close {
@@ -6895,6 +6922,15 @@ a {
   .cid-sMtIDaj4om .align-center {
     text-align: left!important;
   }
+  .cid-sMtIDaj4om .item {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMtIDaj4om .winner-caption {
+    margin-left: 10px;
+    width: calc(50%);
+  }
 }
 .cid-sMtWnlMl1p {
   padding-top: 0rem;
@@ -6930,6 +6966,7 @@ a {
 }
 .cid-sMtWoLLUjq .item-wrapper {
   position: relative;
+  width: 300px;
 }
 .cid-sMtWoLLUjq .item-wrapper .icon-wrapper {
   pointer-events: none;
@@ -6952,6 +6989,17 @@ a {
 }
 .cid-sMtWoLLUjq .item-wrapper:hover .icon-wrapper {
   opacity: 0.7;
+}
+@media (min-width: 768px) {
+  .cid-sMtWoLLUjq .item-wrapper {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMtWoLLUjq .item-wrapper {
+    position: relative;
+    width: 40%;
+  }
 }
 .cid-sMtWoLLUjq .carousel-control,
 .cid-sMtWoLLUjq .close {
@@ -7220,6 +7268,15 @@ a {
   }
   .cid-sMtWoLLUjq .align-center {
     text-align: left!important;
+  }
+  .cid-sMtWoLLUjq .item {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMtWoLLUjq .winner-caption {
+    margin-left: 10px;
+    width: calc(50%);
   }
 }
 .cid-sMu5Iv9Dm8 {
