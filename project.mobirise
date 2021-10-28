@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "page8.html",
+    "currentPage": "nashtech.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -13950,7 +13950,7 @@
         }
       ]
     },
-    "page8.html": {
+    "nashtech.html": {
       "settings": {
         "title": "Nashtech",
         "order": 4,
