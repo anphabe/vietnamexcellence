@@ -12059,6 +12059,19 @@ a {
 .cid-sNFmveVG80 .text-style {
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+  .cid-sNFmveVG80 {
+    padding-top: 0rem;
+  }
+  .cid-sNFmveVG80 img,
+  .cid-sNFmveVG80 .item-img {
+    height: 238px;
+    object-fit: scale-down;
+  }
+  .cid-sNFmveVG80 .item {
+    margin-bottom: 0;
+  }
+}
 .cid-sNFogp9HdX {
   padding-top: 0rem;
   padding-bottom: 0rem;
