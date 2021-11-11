@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "vac-xin-gan-ket-nhan-vien-thoi-kho.html",
+    "currentPage": "nestle.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -12460,7 +12460,7 @@
     },
     "nestle.html": {
       "settings": {
-        "title": "Nestle",
+        "title": "Nestlé",
         "order": 4,
         "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/nestle-share.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/nestle-share.jpg\">\n",
         "meta_descr": ""
@@ -13931,7 +13931,7 @@
     },
     "nashtech.html": {
       "settings": {
-        "title": "Nashtech",
+        "title": "NashTech",
         "order": 5,
         "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/nashtech-share.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/nashtech-share.jpg\">\n",
         "meta_descr": ""
