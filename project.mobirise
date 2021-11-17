@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "nestle.html",
+    "currentPage": "cau-chuyen-dien-hinh.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -30,13 +30,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#f0f0f0",
+        "#ededed",
         "#053b5a",
         "#0c6ca3",
         "#011531",
         "#d79837",
-        "#0c2242",
-        "#e00715",
-        "#ffbcb6"
+        "#0c2242"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -93,7 +93,7 @@
     "gdpr": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
-    "uniqCompNum": 721,
+    "uniqCompNum": 725,
     "versionPublish": "5.5.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -514,7 +514,7 @@
             }
           },
           "_name": "info3",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"info3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-block-ceo-hr-1.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg-10\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>CHƯƠNG TRÌNH CHỨNG NHẬN XUẤT SẮC</b></h4>\n                        <div class=\"row\">\n                            <div class=\"сol-12 col-md-6\">\n                              <div class=\"item-img\">\n                                  <a href=\"ve-vietnamexcellence.html#vietnamleadershipexcellence\"><img src=\"@PROJECT_PATH@/assets/images/logo-golden-leadership.png\" alt=\"Vietnam Leadership Excellence\" title></a>\n                              </div>\n                              <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7 text-style\" mbr-if=\"showText\">LÃNH ĐẠO XUẤT SẮC 2021</p>\n                            </div>\n                            <div class=\"сol-12 col-md-6\">\n                               <div class=\"item-img\">\n                                  <a href=\"ve-vietnamexcellence.html#vietnamhrexcellence\"><img src=\"@PROJECT_PATH@/assets/images/logo-hr-14.png\" alt=\"Vietnam HR Excellence\" title></a>\n                              </div>\n                              <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7 text-style\" mbr-if=\"showText\">NHÂN SỰ XUẤT SẮC 2021<br></p> \n                            </div>\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Chứng nhận thành tích vượt trội, chứng thực từ chính nhân viên</b><br><b>&nbsp;<br></b>Chương trình chứng nhận Xuất sắc Vietnam Excellence khảo sát doanh nghiệp toàn diện và đặc biệt đề cao sự ghi nhận từ nhân viên - những người hiểu rõ công ty nhất xoay quanh các yếu tố quan trọng, ảnh hưởng đến hạnh phúc của người đi làm cũng như hiệu suất kinh doanh. Chỉ khi các minh chứng thực tế và dữ liệu khảo sát đáp ứng khung tiêu chí khắt khe và có sự tán thành từ Ban Cố Vấn, Anphabe sẽ  công bố các tổ chức và nhà lãnh đạo đạt giải.&nbsp;<br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"ve-vietnamexcellence.html\" data-app-placeholder=\"Type Text\">XEM THÊM</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"info3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-block-ceo-hr-1.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg-10\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>CHƯƠNG TRÌNH CHỨNG NHẬN XUẤT SẮC</b></h4>\n                        <div class=\"row\">\n                            <div class=\"сol-12 col-md-6\">\n                              <div class=\"item-img\">\n                                  <a href=\"ve-vietnamexcellence.html#vietnamleadershipexcellence\"><img src=\"@PROJECT_PATH@/assets/images/logo-golden-leadership.png\" alt=\"Vietnam Leadership Excellence\" title></a>\n                              </div>\n                              <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7 text-style\" mbr-if=\"showText\">LÃNH ĐẠO XUẤT SẮC 2021</p>\n                            </div>\n                            <div class=\"сol-12 col-md-6\">\n                               <div class=\"item-img\">\n                                  <a href=\"ve-vietnamexcellence.html#vietnamhrexcellence\"><img src=\"@PROJECT_PATH@/assets/images/logo-hr-14.png\" alt=\"Vietnam HR Excellence\" title></a>\n                              </div>\n                              <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7 text-style\" mbr-if=\"showText\">NHÂN SỰ XUẤT SẮC 2021<br></p> \n                            </div>\n                        </div>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Chứng nhận thành tích vượt trội, chứng thực từ chính nhân viên</b><br><b>&nbsp;<br></b>Chương trình chứng nhận Xuất sắc Vietnam Excellence khảo sát doanh nghiệp toàn diện và đặc biệt đề cao sự ghi nhận từ nhân viên - những người hiểu rõ công ty nhất xoay quanh các yếu tố quan trọng, ảnh hưởng đến hạnh phúc của người đi làm cũng như hiệu suất kinh doanh. Chỉ khi các minh chứng thực tế và dữ liệu khảo sát đáp ứng khung tiêu chí khắt khe và có sự tán thành từ Ban Cố Vấn, Anphabe sẽ  công bố các tổ chức và nhà lãnh đạo đạt giải.&nbsp;<br></p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"ve-vietnamexcellence.html\" data-app-placeholder=\"Type Text\">Xem thêm</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "si0zNBEVx6",
           "_anchor": "info3-h",
           "_PHPplaceholders": [],
@@ -8222,11 +8222,31 @@
             },
             ".btn": {
               "padding-right": "3rem",
-              "padding-left": "3rem"
+              "padding-left": "3rem",
+              "display": "inline-block",
+              "position": "relative",
+              "margin": "10px",
+              "padding": "10px 34px",
+              "text-align": "center",
+              "font-weight": "900",
+              "text-decoration": "none",
+              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
+              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-webkit-transition": "all 0.15s ease",
+              "-moz-transition": "all 0.15s ease",
+              "-o-transition": "all 0.15s ease",
+              "-ms-transition": "all 0.15s ease",
+              "transition": "all 0.15s ease"
             },
             "ul li a": {
               "color": "#232323",
               "text-decoration": "none"
+            },
+            ".btn-primary": {
+              "color": "#000000!important",
+              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
             }
           },
           "_name": "features4",
@@ -15418,6 +15438,85 @@
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".content-wrapper": {
+              "background": "@cardColor",
+              "@media (max-width: 991px)": {
+                ".image-wrapper": {
+                  "margin-bottom": "2rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1rem 1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "3rem 3rem 5rem",
+                ".text-wrapper": {
+                  "padding-left": "2rem"
+                }
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            },
+            ".btn": {
+              "display": "inline-block",
+              "margin": "10px",
+              "padding": "4px 34px",
+              "text-align": "center",
+              "font-weight": "900",
+              "text-decoration": "none",
+              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
+              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-webkit-transition": "all 0.15s ease",
+              "-moz-transition": "all 0.15s ease",
+              "-o-transition": "all 0.15s ease",
+              "-ms-transition": "all 0.15s ease",
+              "transition": "all 0.15s ease"
+            },
+            ".btn::after": {
+              "content": "\"\\2192\"",
+              "font-size": "1.6rem",
+              "margin-left": "0.2rem"
+            },
+            ".btn-primary": {
+              "color": "#000000!important",
+              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "flex-direction": "column-reverse"
+              }
+            }
+          },
+          "_name": "features17",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features16\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#f0f0f0\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <a href=\"https://l.workplace.com/l.php?u=https%3A%2F%2Fanpha.be%2Fdien-hinh-xuat-sac-2021&h=AT0cS7Uqod913dCOQamyvoa7EDgs5PMMl0t0UuX3j-fsLPvjTGiGUysNDtDnDHBlBqzTa5SOJIrY_95EB3jywJDOghgFhZhaZDaxKVW1_9VEhPqhCjT8b_kcrB9yiaOCp5riMi7aN-vok7sDbfrWRUAaJfQOsE60iw\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/edtion-winner.png\" alt=\"Tuyển tập Điển hình Xuất sắc 2021\"></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Tuyển tập Điển hình Xuất sắc 2021</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Khám phá những điển hình xuất sắc và các câu chuyện thành công của Vietnam Excellence 2021.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://l.workplace.com/l.php?u=https%3A%2F%2Fanpha.be%2Fdien-hinh-xuat-sac-2021&h=AT0cS7Uqod913dCOQamyvoa7EDgs5PMMl0t0UuX3j-fsLPvjTGiGUysNDtDnDHBlBqzTa5SOJIrY_95EB3jywJDOghgFhZhaZDaxKVW1_9VEhPqhCjT8b_kcrB9yiaOCp5riMi7aN-vok7sDbfrWRUAaJfQOsE60iw\" data-app-placeholder=\"Type Text\" target=\"_blank\">Tải ngay</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sOwmOeO2jj",
+          "_anchor": "features17-k4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)",
               "& when (@overlay)": {
                 ".mbr-overlay": {
@@ -15507,7 +15606,8 @@
               "margin-top": "auto !important"
             },
             ".mbr-section-title": {
-              "color": "#232323"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "left",
@@ -15532,11 +15632,14 @@
             },
             ".text-style": {
               "font-size": "1rem"
+            },
+            "h4": {
+              "border-bottom": "1px solid #d9d9d9"
             }
           },
           "_name": "content2",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Our Blog</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Read the recent blog posts about\n                Mobirise</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"vac-xin-gan-ket-nhan-vien-thoi-kho.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-5.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"vac-xin-gan-ket-nhan-vien-thoi-kho.html\" class=\"text-primary\"><b>Vắc-xin gắn kết nhân viên thời khó</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b style>John Smith</b><i> 10-10-2025</i></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Vắc-xin gắn kết để nhân viên cung cấp những kiến thức và kỹ năng mới để xây dựng được “hệ miễn dịch khỏe mạnh” giúp tổ chức có kháng thể mạnh mẽ để ngược gió vươn cao. </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"thang-tien-tu-dong.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-3.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"thang-tien-tu-dong.html\" class=\"text-primary\"><b>Thăng tiến tự động</b></a></h5>                        \n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Mỗi nhân sự sẽ nhận về một số điểm nhất định dựa trên sự thể hiện của bản thân, sau đó nếu đủ điểm mà công ty yêu cầu cho công việc quản lý, họ sẽ được tự động đề bạt.<br>\n                        </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"mo-tu-duy.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-4.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"mo-tu-duy.html\" class=\"text-primary\"><b>Mở tư duy - Dám thử nghiệm</b></a></h5>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Cùng theo dõi câu chuyện truyền cảm hứng về hành trình mở tư duy và xây tinh thần dám thử nghiệm trong tập thể, để mang đến những bước chuyển mình mạnh mẽ tại Biti's </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" data-app-placeholder=\"Type Text\" target=\"_blank\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content2\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>KINH NGHIỆM THỰC TIỄN</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Read the recent blog posts about\n                Mobirise</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"vac-xin-gan-ket-nhan-vien-thoi-kho.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-5.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"vac-xin-gan-ket-nhan-vien-thoi-kho.html\" class=\"text-primary\"><b>Vắc-xin gắn kết nhân viên thời khó</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b style>John Smith</b><i> 10-10-2025</i></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Vắc-xin gắn kết để nhân viên cung cấp những kiến thức và kỹ năng mới để xây dựng được “hệ miễn dịch khỏe mạnh” giúp tổ chức có kháng thể mạnh mẽ để ngược gió vươn cao. </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"thang-tien-tu-dong.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-3.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"thang-tien-tu-dong.html\" class=\"text-primary\"><b>Thăng tiến tự động</b></a></h5>                        \n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Mỗi nhân sự sẽ nhận về một số điểm nhất định dựa trên sự thể hiện của bản thân, sau đó nếu đủ điểm mà công ty yêu cầu cho công việc quản lý, họ sẽ được tự động đề bạt.<br>\n                        </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"mo-tu-duy.html\"><img src=\"@PROJECT_PATH@/assets/images/thumb-4.jpg\" alt title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style headline\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"mo-tu-duy.html\" class=\"text-primary\"><b>Mở tư duy - Dám thử nghiệm</b></a></h5>\n                        <p class=\"mbr-text mbr-fonts-style mt-3 text-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Cùng theo dõi câu chuyện truyền cảm hứng về hành trình mở tư duy và xây tinh thần dám thử nghiệm trong tập thể, để mang đến những bước chuyển mình mạnh mẽ tại Biti's </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" data-app-placeholder=\"Type Text\" target=\"_blank\">Read More\n                            &gt;</a></div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "sNFogp9HdX",
           "_anchor": "content2-hw",
           "_PHPplaceholders": [],
