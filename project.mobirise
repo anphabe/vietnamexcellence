@@ -22,7 +22,7 @@
         "display7Font": "Mulish",
         "display7Size": "1.2",
         "display4Font": "Mulish",
-        "display4Size": "0.8",
+        "display4Size": "1",
         "isRoundedButtons": true,
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
@@ -1128,7 +1128,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -1499,7 +1499,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -2830,7 +2833,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -3201,7 +3204,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -4073,7 +4079,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -4444,7 +4450,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -4993,7 +5002,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -5364,7 +5373,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -5848,7 +5860,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -6219,7 +6231,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -7000,7 +7015,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -7371,7 +7386,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -7472,7 +7490,7 @@
       },
       "components": [
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -7843,7 +7861,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -8529,6 +8550,15 @@
               "color": "rgb(0, 0, 0)",
               "height": "30px",
               "display": "flex"
+            },
+            "@media (max-width: 992px)": {
+              "h1.winner-name": {
+                "font-size": "2rem",
+                "line-height": "1.2"
+              },
+              ".content-bio .display-7": {
+                "font-size": "1rem"
+              }
             }
           },
           "_name": "gallery5",
@@ -13393,7 +13423,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -13764,7 +13794,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -14714,7 +14747,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -15085,7 +15118,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -15877,7 +15913,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -16248,7 +16284,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -16717,7 +16756,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -17088,7 +17127,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -18265,7 +18307,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -18636,7 +18678,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
@@ -19251,7 +19296,7 @@
           "_params": {}
         },
         {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8",
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-sNMXYNmkX8-sNMXYNmkX8-sNMXYNmkX8",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -19622,7 +19667,10 @@
               "justify-content": "center",
               "font-size": "14px",
               "font-weight": "bold",
-              "text-transform": "uppercase"
+              "text-transform": "uppercase",
+              "@media (max-width: 992px)": {
+                "font-size": "12px"
+              }
             },
             ".icons-menu": {
               "flex-wrap": "nowrap",
