@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html lang="vi"   >
 <head>
   
   <meta charset="UTF-8">
@@ -28,7 +28,9 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-    <!-- Google Tag Manager -->
+  <meta name="content_group" content="vietnamexcellence" /> 
+
+ <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -36,24 +38,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WBX9JQ4');</script>
 <!-- End Google Tag Manager -->
 <script>
+<script>
 function keep_url_query(){
-    var url = window.location.href;
-    var index = url.indexOf("?");
-
-    if(index < 0) {
-        return;
-    }
-    var query = url.substring(index);
+    let query = window.location.search;
     
-    (function(query) {
-    var atags = document.getElementsByTagName("a"); 
-    var i;
+    if(query == "") {
+        return false;
+    }
+    let searchParams = new URLSearchParams(query);
+
+    let atags = document.getElementsByTagName("a"); 
+    let i;
     for (i = 0; i < atags.length; i++) {
-        atags[i].href = atags[i].href+query;  
-    //    atags[i].classList.add("d-inline-block");
+        let new_url = new URL(atags[i].href);
+        for (const [key, value] of searchParams) {
+            new_url.searchParams.set(key, value);
+        }
+        atags[i].href = new_url.toString();  
     } 
-        
-    })(query);
+
 }
 
 if (
@@ -64,7 +67,6 @@ if (
 } else {
   document.addEventListener("DOMContentLoaded", keep_url_query);
 }
-
 </script>
   <meta property="og:site_name" content="insights.anphabe.com"/>
 <meta property="og:rich_attachment" content="true"/>
@@ -79,7 +81,41 @@ if (
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBX9JQ4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <section data-bs-version="5.1" class="info1 cid-so1UQGbbBi" id="info1-4g">
+  <section data-bs-version="5.1" class="menu menu2 cid-sNMXYNmkX8" once="menu" id="menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-jv">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div style="padding: 0" class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">                    
+                        <a href="index.html"><img src="assets/images/logo-vietnam-excellence.png" alt="Vietnam Excellence" style="height: 2.2rem;"></a>
+                </span>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="ve-vietnamexcellence.html">về Giải Thưởng</a></li>
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="ban-co-van.html">BAN CỐ VẤN</a></li>
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="dien-hinh-xuat-sac.html" aria-expanded="false">VINH DANH</a></li>
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="sukien.html" aria-expanded="false">SỰ KIỆN</a></li>                    
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="cau-chuyen-dien-hinh.html" aria-expanded="false">câu chuyện điển hình</a></li>               
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="/en/index.html">English</a>
+                    </li></ul>
+                
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="dang-ky.html"><strong>ỨNG CỬ NGAY</strong></a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="info1 cid-so1UQGbbBi" id="info1-4g">
     
     <div class="mbr-overlay" style="opacity: 0; background-color: rgb(12, 8, 5);"></div>
     <div class="align-center container-fluid">
@@ -99,8 +135,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 
-                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Chúc mừng bạn đã đăng ký thành công</h4>
-                <p class="mbr-text mbr-fonts-style display-7">Đội ngũ tư vấn sẽ liên hệ với bạn trong vòng 24 giờ làm việc. Trường hợp đăng ký vào cuối tuần, chúng tôi sẽ liên hệ với bạn vào ngày thứ Hai của tuần làm việc kế tiếp.<br><br>Rất mong bạn chú ý điện thoại trong khoảng thời gian này. Cám ơn bạn đã quan tâm đến dịch vụ của Anphabe.<br><br>Trong trường hợp bạn cần tư vấn gấp, có thể liên hệ số Hotline để được hỗ trợ:<br>Hotline: <strong>(+84 28) 6268 2222</strong> (<em>9g sáng - 6g chiều, thứ Hai - thứ Sáu</em>)</p>
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">Cảm ơn bạn đã gửi thông tin! ​</h4>
+                <p class="mbr-text mbr-fonts-style display-7">Đội ngũ tư vấn của Anphabe sẽ liên hệ với bạn trong vòng 24 giờ làm việc. Trường hợp đăng ký vào cuối tuần, chúng tôi sẽ liên hệ vào ngày thứ Hai của tuần làm việc kế tiếp.​
+<br>​
+<br>Rất mong bạn chú ý điện thoại trong khoảng thời gian này. ​
+<br>
+<br>Một lần nữa, cảm ơn bạn đã quan tâm đến chương trình Nơi làm việc tốt nhất Việt Nam.​
+<br>​
+<br>Trong trường hợp bạn cần tư vấn gấp, có thể liên hệ số Hotline để được hỗ trợ:​
+<br>Hotline: <a href="tel:+842862682222" class="text-primary"><strong>(+84 28) 6268 2222</strong></a> (9g sáng - 6g chiều, thứ Hai - thứ Sáu)<br></p>
             </div>
         </div>
     </div>
@@ -269,42 +312,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </div>
-</section>
-
-<section data-bs-version="5.1" class="menu menu2 cid-sNMXYNmkX8" once="menu" id="menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sMsRvBdiLD-sN7yrTCROF-sN7yrTCROF-jv">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div style="padding: 0" class="container-fluid">
-            <div class="navbar-brand">
-                <span class="navbar-logo">                    
-                        <a href="index.html"><img src="assets/images/logo-vietnam-excellence.png" alt="Vietnam Excellence" style="height: 2.2rem;"></a>
-                </span>
-                
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html">Trang chủ</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="ve-vietnamexcellence.html">về Giải Thưởng</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="ban-co-van.html">BAN CỐ VẤN</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="dien-hinh-xuat-sac.html" aria-expanded="false">VINH DANH</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="sukien.html" aria-expanded="false">SỰ KIỆN</a></li>                    
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="cau-chuyen-dien-hinh.html" aria-expanded="false">câu chuyện điển hình</a></li>               
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="/en/index.html">English</a>
-                    </li>
-                </ul>
-                
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="dang-ky.html"><strong>ỨNG CỬ NGAY</strong></a></div>
-            </div>
-        </div>
-    </nav>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.5.1/jquery-3.5.1.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/countdown/countdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   <script src="assets/al/al.min.js"></script>
   
