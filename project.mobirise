@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "ve-vietnamexcellence.html",
+    "currentPage": "dang-ky.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -117,7 +117,7 @@
         "main": true,
         "title": "Chương trình Chứng nhận Xuất sắc Vietnam Excellence | Anphabe",
         "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -4840,7 +4840,7 @@
       "settings": {
         "title": "Đăng ký tham dự chương trình Chứng nhận Xuất sắc Vietnam Excellence ",
         "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">",
         "footer_custom": "",
         "html_before": "",
         "order": 11
@@ -7810,7 +7810,7 @@
       "settings": {
         "title": "Điển hình xuất sắc Vietnam Excellence ",
         "order": 2,
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/assets/images/share2.jpg\">",
         "meta_descr": ""
       },
       "components": [
