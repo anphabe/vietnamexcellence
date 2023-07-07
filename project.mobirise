@@ -107,7 +107,9 @@
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBX9JQ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
     "witsec-language": "vi",
-    "witsec-jquery": "3.5.1"
+    "witsec-jquery": "3.5.1",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
