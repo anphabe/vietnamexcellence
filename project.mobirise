@@ -109,7 +109,9 @@
     "witsec-language": "vi",
     "witsec-jquery": "3.5.1",
     "usedWebp": false,
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
