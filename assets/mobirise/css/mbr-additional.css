@@ -16141,6 +16141,10 @@ a {
 .cid-tLhUA4R36E .quote-author .display-7 {
   font-size: 12px !important;
 }
+.cid-tLhUA4R36E .quote-content {
+  font-size: 16px  !important;
+  font-style: italic;
+}
 .cid-tLhPYjRvr3 {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -16497,7 +16501,7 @@ a {
 .cid-tLhPYkuMvG .quote-author .display-7 {
   font-size: 12px !important;
 }
-.cid-tLhPYkuMvG .quote-text {
+.cid-tLhPYkuMvG .quote-content {
   font-size: 16px  !important;
   font-style: italic;
 }
@@ -16846,6 +16850,10 @@ a {
     margin-left: 10px;
     width: calc(50%);
   }
+}
+.cid-tLhPYmuP39 .quote-content {
+  font-size: 16px  !important;
+  font-style: italic;
 }
 .cid-tLhPYnZ8WX {
   padding-top: 0rem;
@@ -17196,6 +17204,10 @@ a {
 }
 .cid-tLhPYqjZND .hr-winner {
   border: 1px solid #cecece;
+}
+.cid-tLhPYqjZND .quote-content {
+  font-size: 16px  !important;
+  font-style: italic;
 }
 .cid-tLhPYGExZw {
   padding-top: 5rem;
