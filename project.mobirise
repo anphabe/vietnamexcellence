@@ -22013,6 +22013,17 @@
             ".quote-content": {
               "font-size": "16px  !important",
               "font-style": "italic"
+            },
+            ".quote-author": {
+              "text-align": "right",
+              "img": {
+                "width": "150px !important",
+                "display": "inline-block",
+                "margin": "0"
+              },
+              ".display-7": {
+                "font-size": "12px !important"
+              }
             }
           },
           "_name": "gallery5",
@@ -22415,6 +22426,17 @@
             ".quote-content": {
               "font-size": "16px  !important",
               "font-style": "italic"
+            },
+            ".quote-author": {
+              "text-align": "right",
+              "img": {
+                "width": "150px !important",
+                "display": "inline-block",
+                "margin": "0"
+              },
+              ".display-7": {
+                "font-size": "12px !important"
+              }
             }
           },
           "_name": "gallery5",
