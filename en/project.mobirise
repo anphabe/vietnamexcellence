@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - EN",
-    "currentPage": "winner-list-2023.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -104,7 +104,9 @@
     "witsec-language": "vi",
     "usedWebp": false,
     "witsec-jquery": "3.6.0",
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
