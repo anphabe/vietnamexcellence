@@ -5913,7 +5913,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-ucgFgdD6xt .text-wrapper {
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
   }
   .cid-ucgFgdD6xt .pd-02 {
     padding: 0 2rem;
@@ -9154,11 +9154,8 @@ a {
   background: #E0E2E1;
   border-radius: 10px;
 }
-.cid-ue8YVavqLR .shadow p {
-  font-size: 12px!important;
-}
-.cid-ue8YVavqLR .shadow h5 {
-  font-size: 14px!important;
+.cid-ue8YVavqLR .shadow {
+  padding: 1.5rem!important;
 }
 .cid-ue9d80HE9F {
   padding-top: 1rem;
