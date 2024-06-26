@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Câu chuyện điển hình",
-    "currentPage": "index.html",
+    "currentPage": "highlands-coffee-visionary-leader-2023.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -103,7 +103,9 @@
     "global_footer_custom": "",
     "usedWebp": false,
     "witsec-jquery": "3.6.0",
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "schneider-electric-people-champion.html": {
