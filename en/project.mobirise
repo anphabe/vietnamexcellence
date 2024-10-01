@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence - EN",
-    "currentPage": "index.html",
+    "currentPage": "nominate.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -94,10 +94,10 @@
     "witsec-white-label": true,
     "witsec-mailform": false,
     "uniqCompNum": 689,
-    "versionPublish": "5.9.0",
+    "versionPublish": "5.9.6",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "jwsps3tcve",
+    "mbrsiteDomain": "orvbdfpxvf",
     "global_header_custom": "  <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WBX9JQ4');</script>\n<!-- End Google Tag Manager -->\n<script>\nfunction keep_url_query(){\n    var url = window.location.href;\n    var index = url.indexOf(\"?\");\n\n    if(index < 0) {\n        return;\n    }\n    var query = url.substring(index);\n    \n    (function(query) {\n    var atags = document.getElementsByTagName(\"a\"); \n    var i;\n    for (i = 0; i < atags.length; i++) {\n        atags[i].href = atags[i].href+query;  \n    //    atags[i].classList.add(\"d-inline-block\");\n    } \n        \n    })(query);\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n\n</script>",
     "global_after_body": "  <!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBX9JQ4\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "global_footer_custom": "",
@@ -119,6 +119,466 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed",
+                "text-transform": "uppercase"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 5px !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": ".5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all .3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "font-size": "14px",
+              "font-weight": "bold"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a.nav-link:hover": {
+              "color": "#ffae00!important",
+              "text-decoration": "underline"
+            },
+            ".btn-danger, .btn-danger:active": {
+              "color": "#000000!important",
+              "font-weight": "bold"
+            },
+            ".mbr-section-btn a.btn:not(.btn-form)": {
+              "padding": "10px 34px"
+            },
+            ".btn-primary, .btn-primary:active": {
+              "color": "#000000!important"
+            },
+            ".navbar .navbar-collapse": {
+              "padding": "10px 0"
+            },
+            ".buttons-style": {
+              "font-weight": "900"
+            },
+            ".btn": {
+              "display": "inline-block",
+              "position": "relative",
+              "margin": "10px",
+              "padding": "0 20px",
+              "text-align": "center",
+              "text-decoration": "none",
+              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
+              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-webkit-transition": "all 0.15s ease",
+              "-moz-transition": "all 0.15s ease",
+              "-o-transition": "all 0.15s ease",
+              "-ms-transition": "all 0.15s ease",
+              "transition": "all 0.15s ease"
+            },
+            ".btn-primary": {
+              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
+            },
+            "@media (max-width: 778px)": {
+              ".navbar .navbar-logo img": {
+                "height": "1.5rem!important"
+              },
+              ".navbar": {
+                "min-height": "40px"
+              },
+              ".navbar-brand": {
+                "min-height": "40px"
+              }
+            },
+            "button.navbar-toggler .hamburger span": {
+              "background-color": "#ed9d11"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"2.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#030f24\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">home</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"about-vietnamexcellence.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li> \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"advisory-board.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ADVISORY BOARD</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-primary dropdown-toggle\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">WINNER</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-970\"><a class=\"text-primary dropdown-item\" href=\"winner-list-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2023<br></a><a class=\"text-primary show dropdown-item\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2021</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://event.anphabe.com/vietnamexcellence/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">EVENT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://vietnamexcellence.vn/en/best-practice/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">best practice</a></li>                                                           \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TIẾNG VIỆT</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"nominate.html\">CONTACT US<br></a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ax",
+          "_isUserblock": true,
+          "_cid": "sL8MPki1zz",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -1246,466 +1706,6 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
-        {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
-          "_sourceTheme": "mobirise5",
-          "_styles": {
-            "& when not (@sticky)": {
-              ".navbar-dropdown": {
-                "position": "relative !important"
-              }
-            },
-            "& when (@sticky)": {
-              "z-index": "1000",
-              "width": "100%",
-              "& when not (@transparent)": {
-                "position": "relative",
-                "min-height": "60px"
-              },
-              "nav.navbar": {
-                "position": "fixed",
-                "text-transform": "uppercase"
-              }
-            },
-            ".dropdown-item:before": {
-              "font-family": "Moririse2 !important",
-              "content": "'\\e966'",
-              "display": "inline-block",
-              "width": "0",
-              "position": "absolute",
-              "left": "1rem",
-              "top": "0.5rem",
-              "margin-right": "0.5rem",
-              "line-height": "1",
-              "font-size": "inherit",
-              "vertical-align": "middle",
-              "text-align": "center",
-              "overflow": "hidden",
-              "transform": "scale(0, 1)",
-              "transition": "all 0.25s ease-in-out"
-            },
-            ".dropdown-menu": {
-              "padding": "0",
-              "border-radius": "4px",
-              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
-            },
-            ".dropdown-item": {
-              "border-bottom": "1px solid #e6e6e6",
-              "&:hover, &:focus": {
-                "background": "@primaryColor !important",
-                "color": "white !important"
-              },
-              "&:first-child": {
-                "border-top-left-radius": "4px",
-                "border-top-right-radius": "4px"
-              },
-              "&:last-child": {
-                "border-bottom": "none",
-                "border-bottom-left-radius": "4px",
-                "border-bottom-right-radius": "4px"
-              }
-            },
-            ".nav-dropdown .link": {
-              "padding": "0 0.3em !important",
-              "margin": ".667em 5px !important"
-            },
-            ".nav-dropdown .link.dropdown-toggle::after": {
-              "margin-left": "0.5rem",
-              "margin-top": "0.2rem"
-            },
-            ".nav-link": {
-              "position": "relative"
-            },
-            ".container": {
-              "display": "flex",
-              "margin": "auto"
-            },
-            ".iconfont-wrapper": {
-              "color": "@iconsColor !important",
-              "font-size": "1.5rem",
-              "padding-right": ".5rem"
-            },
-            ".navbar-caption": {},
-            ".navbar-nav": {},
-            ".dropdown-menu, .navbar.opened": {
-              "background": "@menuBgColor !important"
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".dropdown .dropdown-menu .dropdown-item": {
-              "width": "auto",
-              "transition": "all 0.25s ease-in-out",
-              "&::after": {
-                "right": "0.5rem"
-              },
-              ".mbr-iconfont": {
-                "margin-right": ".5rem",
-                "vertical-align": "sub",
-                "&:before": {
-                  "display": "inline-block",
-                  "transform": "scale(1, 1)",
-                  "transition": "all 0.25s ease-in-out"
-                }
-              }
-            },
-            ".collapsed": {
-              ".dropdown-menu .dropdown-item:before": {
-                "display": "none"
-              },
-              ".dropdown .dropdown-menu .dropdown-item": {
-                "padding": "0.235em 1.5em 0.235em 1.5em !important",
-                "transition": "none",
-                "margin": "0 !important"
-              }
-            },
-            ".navbar": {
-              "min-height": "70px",
-              "transition": "all .3s",
-              "border-bottom": "1px solid transparent",
-              "&:not(.navbar-short)": {},
-              "& when not (@transparent)": {
-                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
-                "background": "@menuBgColor"
-              },
-              "& when (@transparent)": {
-                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
-              },
-              "&.opened": {
-                "transition": "all .3s"
-              },
-              ".dropdown-item": {
-                "padding": ".5rem 1.8rem"
-              },
-              ".navbar-logo img": {
-                "width": "auto"
-              },
-              ".navbar-collapse": {
-                "justify-content": "flex-end",
-                "z-index": "1"
-              },
-              "&.collapsed": {
-                "justify-content": "center",
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  },
-                  "@media (min-width: 992px)": {
-                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
-                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
-                    }
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "41%"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem",
-                  "text-align": "center"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-right": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "40%"
-                  }
-                },
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3rem !important"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem !important",
-                  "text-align": "center"
-                },
-                ".navbar-brand": {
-                  "flex-shrink": "initial",
-                  "flex-basis": "auto",
-                  "word-break": "break-word",
-                  "padding-right": "2rem"
-                },
-                ".navbar-toggler": {
-                  "flex-basis": "auto"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "&.navbar-short": {
-                "min-height": "60px",
-                ".navbar-logo": {
-                  "img": {
-                    "height": "2.5rem !important"
-                  }
-                },
-                ".navbar-brand": {
-                  "min-height": "60px",
-                  "padding": "0"
-                }
-              }
-            },
-            ".navbar-brand": {
-              "min-height": "70px",
-              "flex-shrink": "0",
-              "align-items": "center",
-              "margin-right": "0",
-              "padding": "0",
-              "transition": "all .3s",
-              "word-break": "break-word",
-              "z-index": "1",
-              ".navbar-caption": {
-                "line-height": "inherit !important"
-              },
-              ".navbar-logo a": {
-                "outline": "none"
-              }
-            },
-            ".dropdown-item.active, .dropdown-item:active": {
-              "background-color": "transparent"
-            },
-            ".navbar-expand-lg .navbar-nav .nav-link": {
-              "padding": "0"
-            },
-            ".nav-dropdown .link.dropdown-toggle": {
-              "margin-right": "1.667em",
-              "&[aria-expanded=\"true\"]": {
-                "margin-right": "0",
-                "padding": "0.667em 1.667em"
-              }
-            },
-            ".navbar.navbar-expand-lg .dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                ".dropdown-submenu": {
-                  "margin": "0",
-                  "left": "100%"
-                }
-              }
-            },
-            ".navbar .dropdown.open > .dropdown-menu": {
-              "display": "block"
-            },
-            "ul.navbar-nav": {
-              "flex-wrap": "wrap"
-            },
-            ".navbar-buttons": {
-              "text-align": "center",
-              "min-width": "170px"
-            },
-            "button.navbar-toggler": {
-              "outline": "none",
-              "width": "31px",
-              "height": "20px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "position": "relative",
-              "align-self": "center",
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".navbar-dropdown": {
-              "padding": "0 1rem",
-              "& when (@sticky)": {
-                "position": "fixed"
-              }
-            },
-            "a.nav-link": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "font-size": "14px",
-              "font-weight": "bold"
-            },
-            ".icons-menu": {
-              "flex-wrap": "nowrap",
-              "display": "flex",
-              "justify-content": "center",
-              "padding-left": "1rem",
-              "padding-right": "1rem",
-              "padding-top": "0.3rem",
-              "text-align": "center"
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".navbar": {
-                "height": "70px",
-                "&.opened": {
-                  "height": "auto"
-                }
-              },
-              ".nav-item .nav-link:hover::before": {
-                "width": "175%",
-                "max-width": "calc(100% ~'+' 2rem)",
-                "left": "-1rem"
-              }
-            },
-            "a.nav-link:hover": {
-              "color": "#ffae00!important",
-              "text-decoration": "underline"
-            },
-            ".btn-danger, .btn-danger:active": {
-              "color": "#000000!important",
-              "font-weight": "bold"
-            },
-            ".mbr-section-btn a.btn:not(.btn-form)": {
-              "padding": "10px 34px"
-            },
-            ".btn-primary, .btn-primary:active": {
-              "color": "#000000!important"
-            },
-            ".navbar .navbar-collapse": {
-              "padding": "10px 0"
-            },
-            ".buttons-style": {
-              "font-weight": "900"
-            },
-            ".btn": {
-              "display": "inline-block",
-              "position": "relative",
-              "margin": "10px",
-              "padding": "0 20px",
-              "text-align": "center",
-              "text-decoration": "none",
-              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
-              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "-webkit-transition": "all 0.15s ease",
-              "-moz-transition": "all 0.15s ease",
-              "-o-transition": "all 0.15s ease",
-              "-ms-transition": "all 0.15s ease",
-              "transition": "all 0.15s ease"
-            },
-            ".btn-primary": {
-              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
-            },
-            "@media (max-width: 778px)": {
-              ".navbar .navbar-logo img": {
-                "height": "1.5rem!important"
-              },
-              ".navbar": {
-                "min-height": "40px"
-              },
-              ".navbar-brand": {
-                "min-height": "40px"
-              }
-            },
-            "button.navbar-toggler .hamburger span": {
-              "background-color": "#ed9d11"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"2.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#030f24\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">home</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"about-vietnamexcellence.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li> \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"advisory-board.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ADVISORY BOARD</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-primary dropdown-toggle\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">WINNER</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-970\"><a class=\"text-primary dropdown-item\" href=\"winner-list-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2023<br></a><a class=\"text-primary show dropdown-item\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2021</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://event.anphabe.com/vietnamexcellence/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">EVENT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://vietnamexcellence.vn/en/best-practice/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">best practice</a></li>                                                           \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TIẾNG VIỆT</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"nominate.html\">CONTACT US<br></a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ax",
-          "_isUserblock": true,
-          "_cid": "sL8MPki1zz",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
         }
       ]
     },
@@ -2573,6 +2573,466 @@
       },
       "components": [
         {
+          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed",
+                "text-transform": "uppercase"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0",
+              "border-radius": "4px",
+              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              },
+              "&:first-child": {
+                "border-top-left-radius": "4px",
+                "border-top-right-radius": "4px"
+              },
+              "&:last-child": {
+                "border-bottom": "none",
+                "border-bottom-left-radius": "4px",
+                "border-bottom-right-radius": "4px"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 5px !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {},
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": ".5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "70px",
+              "transition": "all .3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {},
+              "& when not (@transparent)": {
+                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2.5rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "min-height": "60px",
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "min-height": "70px",
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "font-size": "14px",
+              "font-weight": "bold"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            },
+            "a.nav-link:hover": {
+              "color": "#ffae00!important",
+              "text-decoration": "underline"
+            },
+            ".btn-danger, .btn-danger:active": {
+              "color": "#000000!important",
+              "font-weight": "bold"
+            },
+            ".mbr-section-btn a.btn:not(.btn-form)": {
+              "padding": "10px 34px"
+            },
+            ".btn-primary, .btn-primary:active": {
+              "color": "#000000!important"
+            },
+            ".navbar .navbar-collapse": {
+              "padding": "10px 0"
+            },
+            ".buttons-style": {
+              "font-weight": "900"
+            },
+            ".btn": {
+              "display": "inline-block",
+              "position": "relative",
+              "margin": "10px",
+              "padding": "0 20px",
+              "text-align": "center",
+              "text-decoration": "none",
+              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
+              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
+              "-webkit-transition": "all 0.15s ease",
+              "-moz-transition": "all 0.15s ease",
+              "-o-transition": "all 0.15s ease",
+              "-ms-transition": "all 0.15s ease",
+              "transition": "all 0.15s ease"
+            },
+            ".btn-primary": {
+              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
+            },
+            "@media (max-width: 778px)": {
+              ".navbar .navbar-logo img": {
+                "height": "1.5rem!important"
+              },
+              ".navbar": {
+                "min-height": "40px"
+              },
+              ".navbar-brand": {
+                "min-height": "40px"
+              }
+            },
+            "button.navbar-toggler .hamburger span": {
+              "background-color": "#ed9d11"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"2.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#030f24\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">home</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"about-vietnamexcellence.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li> \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"advisory-board.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ADVISORY BOARD</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-primary dropdown-toggle\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">WINNER</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-970\"><a class=\"text-primary dropdown-item\" href=\"winner-list-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2023<br></a><a class=\"text-primary show dropdown-item\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2021</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://event.anphabe.com/vietnamexcellence/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">EVENT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://vietnamexcellence.vn/en/best-practice/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">best practice</a></li>                                                           \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TIẾNG VIỆT</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"nominate.html\">CONTACT US<br></a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ax",
+          "_isUserblock": true,
+          "_cid": "sL8MPki1zz",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -3256,7 +3716,16 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "about-vietnamexcellence.html": {
+      "settings": {
+        "title": "About Vietnam Excellence",
+        "order": "4",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -3716,16 +4185,7 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "about-vietnamexcellence.html": {
-      "settings": {
-        "title": "About Vietnam Excellence",
-        "order": "4",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -5111,7 +5571,16 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "advisory-board.html": {
+      "settings": {
+        "title": "Advisory Board Vietnam Excellence ",
+        "order": "5",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -5571,16 +6040,7 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "advisory-board.html": {
-      "settings": {
-        "title": "Advisory Board Vietnam Excellence ",
-        "order": "5",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -6462,7 +6922,19 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "nominate.html": {
+      "settings": {
+        "title": "Nominate Vietnam Excellence",
+        "meta_descr": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "6"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -6922,19 +7394,7 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "nominate.html": {
-      "settings": {
-        "title": "Nominate Vietnam Excellence",
-        "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "6"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -7379,7 +7839,17 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "winner-list-2023.html": {
+      "settings": {
+        "title": "Winner List Vietnam Excellence 2023",
+        "order": "3",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "meta_descr": ""
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -7839,17 +8309,7 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "winner-list-2023.html": {
-      "settings": {
-        "title": "Winner List Vietnam Excellence 2023",
-        "order": "3",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "meta_descr": ""
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -9981,7 +10441,17 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "winner-list-2021.html": {
+      "settings": {
+        "title": "Winner List Vietnam Excellence 2021",
+        "order": "2",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "meta_descr": ""
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -10441,17 +10911,7 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "winner-list-2021.html": {
-      "settings": {
-        "title": "Winner List Vietnam Excellence 2021",
-        "order": "2",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
-        "meta_descr": ""
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -14855,7 +15315,19 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "title": "Story",
+        "meta_descr": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "7"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -15308,26 +15780,14 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"2.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#030f24\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">home</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"about-vietnamexcellence.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li> \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"advisory-board.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ADVISORY BOARD</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-primary dropdown-toggle\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">WINNER</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-970\"><a class=\"text-primary dropdown-item\" href=\"winner-list-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2023<br></a><a class=\"text-primary show dropdown-item\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2021</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://event.anphabe.com/vietnamexcellence/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">EVENT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://vietnamexcellence.vn/en/best-practice/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">best practice</a></li>                                                           \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TIẾNG VIỆT</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"nominate.html\">CONTACT US<br></a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ax",
           "_isUserblock": true,
-          "_cid": "sL8MPki1zz",
+          "_cid": "ucf5GNjzO5",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-dr",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "page8.html": {
-      "settings": {
-        "title": "Story",
-        "meta_descr": "",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "7"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -15837,7 +16297,20 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "the-23-year-journey-of-Highlands-Coffee.html": {
+      "settings": {
+        "title": "The Journey of Highlands Coffee: 23 Years Cultivating the Community and the Pride of “BORN FROM THE VIET’S LAND SINCE 1999”",
+        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "8",
+        "meta_image": "@PROJECT_PATH@/assets/images/highlandstory-1.jpg"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -16291,26 +16764,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucf5GNjzO5",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-dr",
+          "_cid": "ucf9zOOzqO",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-e4",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "the-23-year-journey-of-Highlands-Coffee.html": {
-      "settings": {
-        "title": "The Journey of Highlands Coffee: 23 Years Cultivating the Community and the Pride of “BORN FROM THE VIET’S LAND SINCE 1999”",
-        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "8",
-        "meta_image": "@PROJECT_PATH@/assets/images/highlandstory-1.jpg"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -17238,7 +17698,20 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "suntory-pepsico--inspring-excellence-and-shaping-the-future-of-the-beverage-industry.html": {
+      "settings": {
+        "title": "Suntory PepsiCo Vietnam Beverage: Inspiring Excellence and Shaping the Future of the Beverage Industry",
+        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "14",
+        "meta_image": "@PROJECT_PATH@/assets/images/suntorystory-2.jpg"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -17692,26 +18165,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucf9zOOzqO",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-e4",
+          "_cid": "ucgiT3DZcY",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-fd",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "suntory-pepsico--inspring-excellence-and-shaping-the-future-of-the-beverage-industry.html": {
-      "settings": {
-        "title": "Suntory PepsiCo Vietnam Beverage: Inspiring Excellence and Shaping the Future of the Beverage Industry",
-        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "14",
-        "meta_image": "@PROJECT_PATH@/assets/images/suntorystory-2.jpg"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -18466,7 +18926,20 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "marico-sea-visionary-leader-2023.html": {
+      "settings": {
+        "title": "Marico Sea - Visionary Leader 2023",
+        "meta_descr": "Marico is one of India’s leading consumer products companies in the global beauty and wellness space that operates in more than 25 countries. Vietnam is the primary South-East Asian market for Marico and functions as the headquarter for the South-East Asian operations. In Vietnam, Marico is the leading player in male grooming category represented by the iconic brand X-Men, while also provide a portfolio of traditional Vietnamese food seasoning products under Thuan Phat brand.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "13",
+        "meta_image": "@PROJECT_PATH@/assets/images/maricostory-2.jpg"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -18920,26 +19393,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucgiT3DZcY",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-fd",
+          "_cid": "ucgFghdGuK",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-g8",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "marico-sea-visionary-leader-2023.html": {
-      "settings": {
-        "title": "Marico Sea - Visionary Leader 2023",
-        "meta_descr": "Marico is one of India’s leading consumer products companies in the global beauty and wellness space that operates in more than 25 countries. Vietnam is the primary South-East Asian market for Marico and functions as the headquarter for the South-East Asian operations. In Vietnam, Marico is the leading player in male grooming category represented by the iconic brand X-Men, while also provide a portfolio of traditional Vietnamese food seasoning products under Thuan Phat brand.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "13",
-        "meta_image": "@PROJECT_PATH@/assets/images/maricostory-2.jpg"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -19675,7 +20135,20 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "vinacapital-people-champion-2023.html": {
+      "settings": {
+        "title": "VinaCapital - People Champion 2023",
+        "meta_descr": "VinaCapital is the only multi-disciplinary investment manager in Vietnam with 20 years of experience and $3.6 billion assets under management. They create value and share the opportunities and benefits of the country’s growth across every asset class. Their mission is to discover the best investment opportunities in Vietnam by leveraging extensive relationships, local investment knowledge, analytical capabilities, and financial expertise. The compassion for people and culture of VinaCapital’s senior leaders is evident in the way they lead the team, conduct the business and participate in philanthropy, remaining tirelessly committed to positively impacting the broader community in life and work.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "12",
+        "meta_image": "@PROJECT_PATH@/assets/images/vinacapitalstory-1.png"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -20129,26 +20602,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucgFghdGuK",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-g8",
+          "_cid": "ucDvboJ1xz",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-gy",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "vinacapital-people-champion-2023.html": {
-      "settings": {
-        "title": "VinaCapital - People Champion 2023",
-        "meta_descr": "VinaCapital is the only multi-disciplinary investment manager in Vietnam with 20 years of experience and $3.6 billion assets under management. They create value and share the opportunities and benefits of the country’s growth across every asset class. Their mission is to discover the best investment opportunities in Vietnam by leveraging extensive relationships, local investment knowledge, analytical capabilities, and financial expertise. The compassion for people and culture of VinaCapital’s senior leaders is evident in the way they lead the team, conduct the business and participate in philanthropy, remaining tirelessly committed to positively impacting the broader community in life and work.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "12",
-        "meta_image": "@PROJECT_PATH@/assets/images/vinacapitalstory-1.png"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -21177,7 +21637,20 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "thai-minh-pharmaceutical-people-champion-2023.html": {
+      "settings": {
+        "title": "Thai Minh Pharmaceutical - People Champion 2023",
+        "meta_descr": "In 2012, Thai Minh Pharmaceutical Joint Stock Company officially went into operation with only 12 members. Through hard work and constantly learning and innovating, Thai Minh has grown over the years with sales continued to grow and market share expanded. Up to now, Thai Minh has developed over 10 products that are among the top sellers in the market, established a professional distribution system across the country with 10,000 selling points in various provinces.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "11",
+        "meta_image": "@PROJECT_PATH@/assets/images/thaiminh-story-2.jpg"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -21631,26 +22104,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucDvboJ1xz",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-gy",
+          "_cid": "ucE6H6NpeW",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-hu",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "thai-minh-pharmaceutical-people-champion-2023.html": {
-      "settings": {
-        "title": "Thai Minh Pharmaceutical - People Champion 2023",
-        "meta_descr": "In 2012, Thai Minh Pharmaceutical Joint Stock Company officially went into operation with only 12 members. Through hard work and constantly learning and innovating, Thai Minh has grown over the years with sales continued to grow and market share expanded. Up to now, Thai Minh has developed over 10 products that are among the top sellers in the market, established a professional distribution system across the country with 10,000 selling points in various provinces.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "11",
-        "meta_image": "@PROJECT_PATH@/assets/images/thaiminh-story-2.jpg"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -22349,7 +22809,19 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "spatronics-people-champion-2023.html": {
+      "settings": {
+        "title": "Spatronics - People Champion 2023",
+        "meta_descr": "Spartronics Vietnam, a leading electronics company in Vietnam, has been operating since 2005 in a 27,000m2 factory situated in Nam Tan Uyen Industrial Park, Binh Duong. The factory has achieved the LEED GOLD certification from the U.S. Green Building Council (USGBC) for its environmental sustainability.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "10"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -22803,25 +23275,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucE6H6NpeW",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-hu",
+          "_cid": "ucVCBycHVG",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ig",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "spatronics-people-champion-2023.html": {
-      "settings": {
-        "title": "Spatronics - People Champion 2023",
-        "meta_descr": "Spartronics Vietnam, a leading electronics company in Vietnam, has been operating since 2005 in a 27,000m2 factory situated in Nam Tan Uyen Industrial Park, Binh Duong. The factory has achieved the LEED GOLD certification from the U.S. Green Building Council (USGBC) for its environmental sustainability.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "10"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -23299,7 +23759,19 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
+        }
+      ]
+    },
+    "schneider-electric-people-champion-2023.html": {
+      "settings": {
+        "title": "Schneider Electric - People Champion 2023",
+        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
+        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
+        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
+        "html_before": "",
+        "order": "9"
+      },
+      "components": [
         {
           "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
           "_sourceTheme": "mobirise5",
@@ -23753,25 +24225,13 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "ucVCBycHVG",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-ig",
+          "_cid": "udj0BKzd09",
+          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-j4",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
-        }
-      ]
-    },
-    "schneider-electric-people-champion-2023.html": {
-      "settings": {
-        "title": "Schneider Electric - People Champion 2023",
-        "meta_descr": "The story of Highlands Coffee began with David Thai, a soul deeply rooted in Vietnamese heritage, who returned to Vietnam with a vision to “Bring the best of Vietnam to the world”. This inspiring \"RETURN\" story and his aspirations have motivated his colleagues at Highlands Coffee, sparking a collective dedication to build and expand the brand.",
-        "header_custom": "<meta property=\"og:site_name\" content=\"insights.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://insights.anphabe.com\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">\n  <meta property=\"og:image\" content=\"https://vietnamexcellence.vn/ assets/images/share2.jpg\">",
-        "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
-        "html_before": "",
-        "order": "9"
-      },
-      "components": [
+        },
         {
           "alias": false,
           "_styles": {
@@ -24605,466 +25065,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {}
-        },
-        {
-          "_name": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz",
-          "_sourceTheme": "mobirise5",
-          "_styles": {
-            "& when not (@sticky)": {
-              ".navbar-dropdown": {
-                "position": "relative !important"
-              }
-            },
-            "& when (@sticky)": {
-              "z-index": "1000",
-              "width": "100%",
-              "& when not (@transparent)": {
-                "position": "relative",
-                "min-height": "60px"
-              },
-              "nav.navbar": {
-                "position": "fixed",
-                "text-transform": "uppercase"
-              }
-            },
-            ".dropdown-item:before": {
-              "font-family": "Moririse2 !important",
-              "content": "'\\e966'",
-              "display": "inline-block",
-              "width": "0",
-              "position": "absolute",
-              "left": "1rem",
-              "top": "0.5rem",
-              "margin-right": "0.5rem",
-              "line-height": "1",
-              "font-size": "inherit",
-              "vertical-align": "middle",
-              "text-align": "center",
-              "overflow": "hidden",
-              "transform": "scale(0, 1)",
-              "transition": "all 0.25s ease-in-out"
-            },
-            ".dropdown-menu": {
-              "padding": "0",
-              "border-radius": "4px",
-              "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)"
-            },
-            ".dropdown-item": {
-              "border-bottom": "1px solid #e6e6e6",
-              "&:hover, &:focus": {
-                "background": "@primaryColor !important",
-                "color": "white !important"
-              },
-              "&:first-child": {
-                "border-top-left-radius": "4px",
-                "border-top-right-radius": "4px"
-              },
-              "&:last-child": {
-                "border-bottom": "none",
-                "border-bottom-left-radius": "4px",
-                "border-bottom-right-radius": "4px"
-              }
-            },
-            ".nav-dropdown .link": {
-              "padding": "0 0.3em !important",
-              "margin": ".667em 5px !important"
-            },
-            ".nav-dropdown .link.dropdown-toggle::after": {
-              "margin-left": "0.5rem",
-              "margin-top": "0.2rem"
-            },
-            ".nav-link": {
-              "position": "relative"
-            },
-            ".container": {
-              "display": "flex",
-              "margin": "auto"
-            },
-            ".iconfont-wrapper": {
-              "color": "@iconsColor !important",
-              "font-size": "1.5rem",
-              "padding-right": ".5rem"
-            },
-            ".navbar-caption": {},
-            ".navbar-nav": {},
-            ".dropdown-menu, .navbar.opened": {
-              "background": "@menuBgColor !important"
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".dropdown .dropdown-menu .dropdown-item": {
-              "width": "auto",
-              "transition": "all 0.25s ease-in-out",
-              "&::after": {
-                "right": "0.5rem"
-              },
-              ".mbr-iconfont": {
-                "margin-right": ".5rem",
-                "vertical-align": "sub",
-                "&:before": {
-                  "display": "inline-block",
-                  "transform": "scale(1, 1)",
-                  "transition": "all 0.25s ease-in-out"
-                }
-              }
-            },
-            ".collapsed": {
-              ".dropdown-menu .dropdown-item:before": {
-                "display": "none"
-              },
-              ".dropdown .dropdown-menu .dropdown-item": {
-                "padding": "0.235em 1.5em 0.235em 1.5em !important",
-                "transition": "none",
-                "margin": "0 !important"
-              }
-            },
-            ".navbar": {
-              "min-height": "70px",
-              "transition": "all .3s",
-              "border-bottom": "1px solid transparent",
-              "&:not(.navbar-short)": {},
-              "& when not (@transparent)": {
-                "box-shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
-                "background": "@menuBgColor"
-              },
-              "& when (@transparent)": {
-                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
-              },
-              "&.opened": {
-                "transition": "all .3s"
-              },
-              ".dropdown-item": {
-                "padding": ".5rem 1.8rem"
-              },
-              ".navbar-logo img": {
-                "width": "auto"
-              },
-              ".navbar-collapse": {
-                "justify-content": "flex-end",
-                "z-index": "1"
-              },
-              "&.collapsed": {
-                "justify-content": "center",
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  },
-                  "@media (min-width: 992px)": {
-                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
-                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
-                    }
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "41%"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem",
-                  "text-align": "center"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-right": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "40%"
-                  }
-                },
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3rem !important"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem !important",
-                  "text-align": "center"
-                },
-                ".navbar-brand": {
-                  "flex-shrink": "initial",
-                  "flex-basis": "auto",
-                  "word-break": "break-word",
-                  "padding-right": "2rem"
-                },
-                ".navbar-toggler": {
-                  "flex-basis": "auto"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "&.navbar-short": {
-                "min-height": "60px",
-                ".navbar-logo": {
-                  "img": {
-                    "height": "2.5rem !important"
-                  }
-                },
-                ".navbar-brand": {
-                  "min-height": "60px",
-                  "padding": "0"
-                }
-              }
-            },
-            ".navbar-brand": {
-              "min-height": "70px",
-              "flex-shrink": "0",
-              "align-items": "center",
-              "margin-right": "0",
-              "padding": "0",
-              "transition": "all .3s",
-              "word-break": "break-word",
-              "z-index": "1",
-              ".navbar-caption": {
-                "line-height": "inherit !important"
-              },
-              ".navbar-logo a": {
-                "outline": "none"
-              }
-            },
-            ".dropdown-item.active, .dropdown-item:active": {
-              "background-color": "transparent"
-            },
-            ".navbar-expand-lg .navbar-nav .nav-link": {
-              "padding": "0"
-            },
-            ".nav-dropdown .link.dropdown-toggle": {
-              "margin-right": "1.667em",
-              "&[aria-expanded=\"true\"]": {
-                "margin-right": "0",
-                "padding": "0.667em 1.667em"
-              }
-            },
-            ".navbar.navbar-expand-lg .dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                ".dropdown-submenu": {
-                  "margin": "0",
-                  "left": "100%"
-                }
-              }
-            },
-            ".navbar .dropdown.open > .dropdown-menu": {
-              "display": "block"
-            },
-            "ul.navbar-nav": {
-              "flex-wrap": "wrap"
-            },
-            ".navbar-buttons": {
-              "text-align": "center",
-              "min-width": "170px"
-            },
-            "button.navbar-toggler": {
-              "outline": "none",
-              "width": "31px",
-              "height": "20px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "position": "relative",
-              "align-self": "center",
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".navbar-dropdown": {
-              "padding": "0 1rem",
-              "& when (@sticky)": {
-                "position": "fixed"
-              }
-            },
-            "a.nav-link": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "font-size": "14px",
-              "font-weight": "bold"
-            },
-            ".icons-menu": {
-              "flex-wrap": "nowrap",
-              "display": "flex",
-              "justify-content": "center",
-              "padding-left": "1rem",
-              "padding-right": "1rem",
-              "padding-top": "0.3rem",
-              "text-align": "center"
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".navbar": {
-                "height": "70px",
-                "&.opened": {
-                  "height": "auto"
-                }
-              },
-              ".nav-item .nav-link:hover::before": {
-                "width": "175%",
-                "max-width": "calc(100% ~'+' 2rem)",
-                "left": "-1rem"
-              }
-            },
-            "a.nav-link:hover": {
-              "color": "#ffae00!important",
-              "text-decoration": "underline"
-            },
-            ".btn-danger, .btn-danger:active": {
-              "color": "#000000!important",
-              "font-weight": "bold"
-            },
-            ".mbr-section-btn a.btn:not(.btn-form)": {
-              "padding": "10px 34px"
-            },
-            ".btn-primary, .btn-primary:active": {
-              "color": "#000000!important"
-            },
-            ".navbar .navbar-collapse": {
-              "padding": "10px 0"
-            },
-            ".buttons-style": {
-              "font-weight": "900"
-            },
-            ".btn": {
-              "display": "inline-block",
-              "position": "relative",
-              "margin": "10px",
-              "padding": "0 20px",
-              "text-align": "center",
-              "text-decoration": "none",
-              "text-shadow": "1px 1px 1px rgba(255, 255, 255, 0.22)",
-              "-webkit-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "-moz-box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "box-shadow": "1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44)",
-              "-webkit-transition": "all 0.15s ease",
-              "-moz-transition": "all 0.15s ease",
-              "-o-transition": "all 0.15s ease",
-              "-ms-transition": "all 0.15s ease",
-              "transition": "all 0.15s ease"
-            },
-            ".btn-primary": {
-              "background": "linear-gradient(to left, #c68127, #f5d26d, #c68127)"
-            },
-            "@media (max-width: 778px)": {
-              ".navbar .navbar-logo img": {
-                "height": "1.5rem!important"
-              },
-              ".navbar": {
-                "min-height": "40px"
-              },
-              ".navbar-brand": {
-                "min-height": "40px"
-              }
-            },
-            "button.navbar-toggler .hamburger span": {
-              "background-color": "#ed9d11"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"2.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#030f24\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/logo-vietnam-excellence.png\" alt=\"Vietnam Excellence\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">home</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"about-vietnamexcellence.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT US</a></li> \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"advisory-board.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ADVISORY BOARD</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-primary dropdown-toggle\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">WINNER</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-970\"><a class=\"text-primary dropdown-item\" href=\"winner-list-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2023<br></a><a class=\"text-primary show dropdown-item\" href=\"winner-list.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2021</a></div></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://event.anphabe.com/vietnamexcellence/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">EVENT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://vietnamexcellence.vn/en/best-practice/2023/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">best practice</a></li>                                                           \n                    <li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TIẾNG VIỆT</a>\n                    </li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"nominate.html\">CONTACT US<br></a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "udj0BKzd09",
-          "_anchor": "menu2-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sjuBcn1edv-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-sL8MPki1zz-j4",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         }
       ]
