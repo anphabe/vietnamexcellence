@@ -3484,7 +3484,7 @@ a {
 .cid-sicfD5wZ6X {
   padding-top: 7rem;
   padding-bottom: 10rem;
-  background-image: url("../../../assets/images/judge-bg-cover.jpg");
+  background-image: url("../../../assets/images/full-boa-vnex.png");
   height: 700px;
 }
 @media (max-width: 778px) {
@@ -3558,55 +3558,6 @@ a {
 }
 .cid-sis2kHA6j2 .nameTitle {
   text-transform: uppercase;
-}
-.cid-sisyDQugiK {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-sisyDQugiK .card-wrapper {
-  padding-right: 2rem;
-}
-@media (max-width: 992px) {
-  .cid-sisyDQugiK .card {
-    margin-bottom: 2rem!important;
-  }
-  .cid-sisyDQugiK .card-wrapper {
-    padding: 0 1rem;
-  }
-  .cid-sisyDQugiK .image-wrapper {
-    margin-bottom: 35px;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sisyDQugiK {
-    padding-top: 2.5rem;
-  }
-  .cid-sisyDQugiK .link-wrap {
-    align-items: center;
-  }
-  .cid-sisyDQugiK .image-wrapper {
-    margin-bottom: 35px;
-  }
-  .cid-sisyDQugiK .card-subtitle {
-    margin-top: 0.5rem;
-  }
-}
-.cid-sisyDQugiK .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-sisyDQugiK ul.card-subtitle {
-  margin-left: -0.5rem;
-  margin-top: 1rem;
-  line-height: 1.6;
-}
-.cid-sisyDQugiK .nameTitle {
-  text-transform: uppercase;
-}
-.cid-sisyDQugiK .card-title,
-.cid-sisyDQugiK .card-box {
-  color: #353535;
 }
 .cid-sisyDp2u0q {
   padding-top: 5rem;
@@ -3831,6 +3782,51 @@ a {
 }
 .cid-sisz6vY81t .card-title,
 .cid-sisz6vY81t .card-box {
+  color: #353535;
+}
+.cid-uurYAB00m3 {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  background-color: #ffffff;
+}
+.cid-uurYAB00m3 .card-wrapper {
+  padding-right: 2rem;
+}
+@media (max-width: 992px) {
+  .cid-uurYAB00m3 .card {
+    margin-bottom: 2rem!important;
+  }
+  .cid-uurYAB00m3 .card-wrapper {
+    padding: 0 1rem;
+  }
+  .cid-uurYAB00m3 .image-wrapper {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uurYAB00m3 {
+    padding-top: 2.5rem;
+  }
+  .cid-uurYAB00m3 .link-wrap {
+    align-items: center;
+  }
+  .cid-uurYAB00m3 .image-wrapper {
+    margin-bottom: 35px;
+  }
+  .cid-uurYAB00m3 .card-subtitle {
+    margin-top: 0.5rem;
+  }
+}
+.cid-uurYAB00m3 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-uurYAB00m3 ul.card-subtitle {
+  margin-left: -0.5rem;
+  margin-top: 1rem;
+}
+.cid-uurYAB00m3 .card-title,
+.cid-uurYAB00m3 .card-box {
   color: #353535;
 }
 .cid-sL8L4oMEbz {
