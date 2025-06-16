@@ -110,7 +110,9 @@
     "usedWebp": false,
     "witsec-anphabe": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "witsec-language": false
+    "witsec-language": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
