@@ -2870,6 +2870,19 @@ a {
 .cid-si5RPBSixd .media-container-row .mbr-text {
   text-align: left;
 }
+.cid-vmzMMt3DvH {
+  background-image: url("../../../assets/images/bg-about-excellence-2027.jpg");
+  min-height: 50vh!important;
+}
+@media (max-width: 778px) {
+  .cid-vmzMMt3DvH {
+    min-height: 25vh!important;
+  }
+}
+.cid-vmzMMt3DvH .mbr-text,
+.cid-vmzMMt3DvH .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-sNMXYNmkX8 {
   z-index: 1000;
   width: 100%;
@@ -3292,27 +3305,6 @@ a {
   .cid-sNMXYNmkX8 a.btn:not(.btn-form) {
     padding: 8px 16px!important;
   }
-}
-.cid-sicfD5wZ6X {
-  padding-top: 7rem;
-  padding-bottom: 10rem;
-  background-image: url("../../../assets/images/boa-full.jpg");
-  height: 700px;
-}
-@media (max-width: 778px) {
-  .cid-sicfD5wZ6X {
-    padding-top: 3.5rem;
-    padding-bottom: 5rem;
-  }
-}
-@media (max-width: 778px) {
-  .cid-sicfD5wZ6X {
-    height: 25vh;
-  }
-}
-.cid-sicfD5wZ6X .mbr-text,
-.cid-sicfD5wZ6X .mbr-section-btn {
-  color: #ffffff;
 }
 .cid-sicgVpn5rt {
   padding-top: 5rem;
