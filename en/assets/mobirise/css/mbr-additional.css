@@ -4757,7 +4757,7 @@ a {
   color: #353535;
 }
 .cid-tmFfNnhSNb {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -4777,7 +4777,7 @@ a {
 }
 @media (max-width: 767px) {
   .cid-tmFfNnhSNb {
-    padding-top: 2rem;
+    padding-top: 0rem;
   }
   .cid-tmFfNnhSNb .link-wrap {
     align-items: center;
