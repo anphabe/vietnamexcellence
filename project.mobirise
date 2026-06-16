@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Excellence",
-    "currentPage": "ban-co-van.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -110,7 +110,9 @@
     "usedWebp": false,
     "witsec-anphabe": false,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "witsec-language": false
+    "witsec-language": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
