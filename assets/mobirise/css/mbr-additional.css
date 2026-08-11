@@ -2463,6 +2463,79 @@ a {
     padding-bottom: 3rem;
   }
 }
+.cid-vrT1O5ue9q {
+  padding-top: 6rem;
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/bg-block-new.jpg");
+}
+.cid-vrT1O5ue9q .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vrT1O5ue9q .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vrT1O5ue9q .mbr-text,
+.cid-vrT1O5ue9q .mbr-section-btn {
+  color: #232323;
+}
+.cid-vrT1O5ue9q .card-title,
+.cid-vrT1O5ue9q .card-box {
+  color: #ffffff;
+}
+.cid-vrT1O5ue9q .mbr-text,
+.cid-vrT1O5ue9q .link-wrap {
+  color: #ffffff;
+}
+.cid-vrT1O5ue9q .gradient-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  white-space: nowrap;
+  background-image: linear-gradient(to bottom, #fcf3c5 10%, #e2c070 50%, #fcf3c5 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 0 3px rgba(255, 215, 0, 0.2);
+}
+.cid-vrT1O5ue9q .mbr-section-subtitle {
+  letter-spacing: 0.5rem ;
+}
+.cid-vrT1O5ue9q .gold-banner {
+  background: linear-gradient(90deg, #a66e1e 0%, #d19e3e 12%, #fce792 35%, #fce792 65%, #c69234 85%, #825110 100%);
+  color: #232323!important;
+  font-weight: 700;
+  display: inline-block;
+  padding: 8px 20px;
+}
+.cid-vrT1O5ue9q .card-box .mbr-text,
+.cid-vrT1O5ue9q .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-vrT1O5ue9q .text-style {
+  font-size: 1.2rem!important;
+}
+.cid-vrT1O5ue9q .gold-color {
+  color: #ffe2ae!important;
+}
+.cid-vrT1O5ue9q hr.shining-line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(2, 33, 126, 0) 0%, #fef9bb 50%, rgba(7, 37, 128, 0) 100%);
+  margin: 30px 0;
+  opacity: 0.9;
+}
 .cid-toLbGi4d3G {
   padding-top: 2rem;
   padding-bottom: 5rem;
