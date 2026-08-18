@@ -3792,6 +3792,7 @@ a {
 }
 .cid-sliK8zP4PY .title-style {
   font-size: 1.6rem;
+  text-transform: capitalize;
 }
 .cid-sliK8zP4PY .image-wrapper {
   width: 45%;
@@ -3825,6 +3826,78 @@ a {
     padding-top: 2.5rem;
     padding-bottom: 3rem;
   }
+}
+.cid-vsCjHyhy8h {
+  padding-top: 6rem;
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/bg-block-new.jpg");
+}
+.cid-vsCjHyhy8h .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vsCjHyhy8h .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vsCjHyhy8h .mbr-text,
+.cid-vsCjHyhy8h .mbr-section-btn {
+  color: #232323;
+}
+.cid-vsCjHyhy8h .card-title,
+.cid-vsCjHyhy8h .card-box {
+  color: #ffffff;
+}
+.cid-vsCjHyhy8h .mbr-text,
+.cid-vsCjHyhy8h .link-wrap {
+  color: #ffffff;
+}
+.cid-vsCjHyhy8h .gradient-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  background-image: linear-gradient(to bottom, #fcf3c5 10%, #e2c070 50%, #fcf3c5 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1), 0 0 3px rgba(255, 215, 0, 0.2);
+}
+.cid-vsCjHyhy8h .mbr-section-subtitle {
+  letter-spacing: 0.5rem ;
+}
+.cid-vsCjHyhy8h .gold-banner {
+  background: linear-gradient(90deg, #a66e1e 0%, #d19e3e 12%, #fce792 35%, #fce792 65%, #c69234 85%, #825110 100%);
+  color: #232323!important;
+  font-weight: 700;
+  display: inline-block;
+  padding: 8px 20px;
+}
+.cid-vsCjHyhy8h .card-box .mbr-text,
+.cid-vsCjHyhy8h .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-vsCjHyhy8h .text-style {
+  font-size: 1.2rem!important;
+}
+.cid-vsCjHyhy8h .gold-color {
+  color: #ffe2ae!important;
+}
+.cid-vsCjHyhy8h hr.shining-line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(2, 33, 126, 0) 0%, #fef9bb 50%, rgba(7, 37, 128, 0) 100%);
+  margin: 30px 0;
+  opacity: 0.9;
 }
 .cid-uaX9JX1jCf {
   padding-top: 4rem;
